@@ -61457,19 +61457,22 @@ jb(){var s=this.e
 return this.b?B.h.aY(s-1,10)+1:s},
 fE(){var s=this
 return s.b?s.jb()===10:s.e>=s.d},
-M0(a,b,c,d){if(a==="king")d=1
-return new A.cX(a,b,++this.x,c,d,d-1,B.v)},
+M0(a,b,c,d){var s
+if(a==="king")d=1
+s=++this.x
+return new A.cX(a,b,s,c,d,d>=2?1:0,B.v)},
 a5P(a,b,c){return this.M0(a,b,c,1)},
 a5Q(a,b,c){return this.M0(a,b,!1,c)},
-a2M(){var s,r,q,p,o,n,m,l,k,j,i=A.t(t.XS,t.qP)
+a2M(){var s,r,q,p,o,n,m,l,k,j,i,h=A.t(t.XS,t.qP)
 for(s=0;s<7;++s){r=B.kN[s]
 for(q=this.f,p=q.length,o=r==="king",n=0;n<q.length;q.length===p||(0,A.m)(q),++n){m=q[n]
-if(m.a===r){l=this.EV(i,r)
+if(m.a===r){l=this.EV(h,r)
 if(l.a>=0){k=m.b
 if(o)k=1
-j=new A.cX(r,0,++this.x,!1,k,k-1,B.v)
-j.r=l
-i.m(0,l,j)}}}}return i},
+j=++this.x
+i=new A.cX(r,0,j,!1,k,k>=2?1:0,B.v)
+i.r=l
+h.m(0,l,i)}}}}return h},
 Om(a){a.W(0,new A.Yk())},
 yb(a,b){var s
 if(!A.aeY(b)||!B.b.B(B.cU,b.b))return!1
@@ -61518,7 +61521,8 @@ if(k.a<0)break
 B.b.t(s,k)
 j=i.Zs(i.c.w)
 if(l==="king")j=1
-a.m(0,k,new A.cX(l,1,++i.x,!1,j,j-1,B.v))}},
+p=++i.x
+a.m(0,k,new A.cX(l,1,p,!1,j,j>=2?1:0,B.v))}},
 Uu(a,b,c){var s,r,q,p,o,n,m,l=t.T,k=A.c([],l)
 for(s=b.length,r=c==="soldier",q=!r,p=0;p<b.length;b.length===s||(0,A.m)(b),++p){o=b[p]
 if(!a.U(o))if(!(r&&o.b===1))n=q&&o.b<1
