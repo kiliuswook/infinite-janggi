@@ -64325,7 +64325,7 @@ p.push(A.a6(c,d.Hh("p",d.b9),255,c,0,c,944,204))
 m=d.b9
 p.push(A.a6(c,d.GW(m==="king"?"\ucd08\ub098\ub77c \uc655":"\ucd08\ub098\ub77c "+A.m(B.dy.h(0,m))+" \uc7a5\uc218","\u695a",!0),76,c,214,c,1030,310))
 m=d.a
-if(m.e)l="\ub9d0 \uad6c\ub9e4\xb7\ubc30\uce58"
+if(m.e)l="\uad70\uc601 \xb7 \ub9d0 \uad6c\ub9e4\uc640 \ubc30\uce58"
 else if(m.d){m=d.y
 m===$&&A.a()
 k=m.hz()
@@ -65398,8 +65398,8 @@ for(s=0;s<4;++s)o.push(r.vV(B.Gt[s],B.le))
 o.push(r.Wc())
 o.push(new A.cQ(B.DF,A.c7(A.c([A.bg("\uad6c\ub9e4 \ubcf5\uc6d0",B.ak,22,56,q,r.ga_K(),q,190),B.x1,B.DQ],p),B.B,B.S,B.z),q))
 o.push(B.jh)
-o.push(r.Gr("\ub9d0\uacfc \uc544\uc774\ud15c","\uc2dc\uc791 \ub9d0, \ubb34\ub974\uae30, \ubc29\ud328\ub294 [\ub9d0 \uad6c\ub9e4\xb7\ubc30\uce58]\uc5d0\uc11c \uc0ac\uc694."))
-o.push(new A.nG(B.fF,q,q,A.bg("\ub9d0 \uad6c\ub9e4\xb7\ubc30\uce58\ub85c",B.R,26,64,q,new A.a9m(r),q,300),q))
+o.push(r.Gr("\ub9d0\uacfc \uc544\uc774\ud15c","\uc2dc\uc791 \ub9d0\uacfc \ubb34\ub974\uae30, \ubc29\ud328, \ub418\uc0b4\ub9ac\uae30\ub294 [\uad70\uc601]\uc5d0\uc11c \uc0ac\uc694."))
+o.push(new A.nG(B.fF,q,q,A.bg("\uad70\uc601\uc73c\ub85c",B.R,26,64,q,new A.a9m(r),q,300),q))
 return A.ahv(o,B.bR)},
 qO(){var s=0,r=A.I(t.H),q=this,p
 var $async$qO=A.J(function(a,b){if(a===1)return A.F(b,r)
@@ -66257,7 +66257,7 @@ o=A.ea(0,A.bK("assets/bg/title_bg.jpg",B.l,p,B.by,p,p))
 s=A.a6(p,A.bK("assets/ui/logo.png",B.l,p,B.b8,p,p),p,p,90,p,80,540)
 r=A.a6(p,A.bg("\uc2a4\ud14c\uc774\uc9c0 \ubaa8\ub4dc",B.R,36,100,p,new A.a33(a),"\ucc9c\ud558\ud1b5\uc77c, 10\uac1c\uc758 \ub545\uc744 \ud3c9\uc815\ud558\ub77c",420),p,p,150,p,850,p)
 q=n>0?"\ucd5c\uace0 "+n+"\uc6e8\uc774\ube0c":"\ub05d\uc5c6\uc774 \uc2f8\uc6cc \uae30\ub85d\uc5d0 \ub3c4\uc804"
-return A.Ft(p,A.c0(B.U,A.c([o,B.w2,s,r,A.a6(p,A.bg("\ubb34\ud55c \ubaa8\ub4dc",B.ak,36,100,p,new A.a34(a),q,420),p,p,150,p,965,p),A.a6(p,A.bg("\ub9d0 \uad6c\ub9e4\xb7\ubc30\uce58",B.ak,25,84,p,new A.a35(a),p,216),p,p,24,p,1090,p),A.a6(p,A.bg("\uc0c1\uc810",B.R,28,84,p,new A.a36(a),p,216),p,p,252,p,1090,p),A.a6(p,A.bg("\ub7ad\ud0b9",B.ak,28,84,p,new A.a37(a),p,216),p,p,480,p,1090,p),B.LN],t.p),B.x,B.a0))}}
+return A.Ft(p,A.c0(B.U,A.c([o,B.w2,s,r,A.a6(p,A.bg("\ubb34\ud55c \ubaa8\ub4dc",B.ak,36,100,p,new A.a34(a),q,420),p,p,150,p,965,p),A.a6(p,A.bg("\uad70\uc601",B.ak,28,84,p,new A.a35(a),"\ub9d0 \uad6c\ub9e4\xb7\ubc30\uce58",216),p,p,24,p,1090,p),A.a6(p,A.bg("\uc0c1\uc810",B.R,28,84,p,new A.a36(a),p,216),p,p,252,p,1090,p),A.a6(p,A.bg("\ub7ad\ud0b9",B.ak,28,84,p,new A.a37(a),p,216),p,p,480,p,1090,p),B.LN],t.p),B.x,B.a0))}}
 A.a33.prototype={
 $0(){return A.d6(this.a,B.x9)},
 $S:0}
