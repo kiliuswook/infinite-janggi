@@ -73828,7 +73828,7 @@ rA(){return this.ahe()},
 ahe(){var s=0,r=A.L(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$rA=A.M(function(a,b){if(a===1)return A.I(b,r)
 for(;;)switch(s){case 0:d={}
-if(!(p.B<3&&p.a9!=null)){s=1
+if(!(p.B<1&&p.a9!=null)){s=1
 break}o=$.fm
 s=o>0?3:5
 break
@@ -73896,7 +73896,7 @@ p.a7=B.M
 p.R=A.b([],o)
 p.go=0
 p.a9=null
-p.mD("\ud55c \uc218 \ubb3c\ub800\uc5b4\uc694 ("+p.B+"/3)")
+p.mD("\ud55c \uc218 \ubb3c\ub800\uc5b4\uc694 ("+p.B+"/1)")
 p.dx=d.a?"busy":"player"
 p.bl()
 s=d.a?7:8
@@ -74039,7 +74039,7 @@ if(f.dx==="shield")p.push(A.a5(e,B.Hr,e,e,0,0,434.8,e))
 if(q){n=f.dx==="player"
 m=A.a5(e,A.bo("\ud3ec\uae30",B.ag,24,72,e,n?f.gOy():e,e,108),e,e,4,e,d,e)
 if(f.d3!=null)n=B.Qf
-else if(f.W>=1)n=B.Qd
+else if(f.W>=1)n=B.Qc
 else{l=$.ko
 k=l>0
 l=k?"\ub418\uc0b4\ub9bc x"+l:"\ub418\uc0b4\ub9bc"
@@ -74055,7 +74055,7 @@ k=i?"\ubc29\ud328 x"+k:"\ubc29\ud328"
 i=i?"assets/ui/shield_icon.png":c
 k=A.bo(k,B.V,22,72,i,l==="player"&&f.gOM()?f.gUF():e,e,148)
 l=k}l=A.a5(e,l,e,e,412,e,d,e)
-if(f.B>=3)k=B.Qc
+if(f.B>=1)k=B.Qd
 else{k=$.fm
 i=k>0
 k=i?"\ubb34\ub974\uae30 x"+k:"\ubb34\ub974\uae30"
@@ -74133,7 +74133,7 @@ if(n){m.push(A.bo("\uc2a4\ud14c\uc774\uc9c0 \uc120\ud0dd",B.ag,28,82,o,p.gEx(),o
 s=p.y
 s===$&&A.a()
 s=s.a
-if(s<10)m.push(A.bo("\ub2e4\uc74c \uc2a4\ud14c\uc774\uc9c0",B.V,28,82,o,new A.agg(p,s+1),o,324))}else{if(p.B<3&&p.a9!=null)m.push(p.N8())
+if(s<10)m.push(A.bo("\ub2e4\uc74c \uc2a4\ud14c\uc774\uc9c0",B.V,28,82,o,new A.agg(p,s+1),o,324))}else{if(p.B<1&&p.a9!=null)m.push(p.N8())
 m.push(A.bo("\ucc98\uc74c\ubd80\ud130 \ub2e4\uc2dc",B.V,28,82,o,new A.agh(p),o,324))
 m.push(A.bo("\uc2a4\ud14c\uc774\uc9c0 \uc120\ud0dd",B.ag,28,82,o,p.gEx(),o,324))}if(n)s="\ucc9c\ud558\ub97c \ud5a5\ud55c \ucd08\ub098\ub77c\uc758 \uae38\uc774\n\uc624\ub298\ub3c4 \uc2b9\ub9ac\ub85c \uc774\uc5b4\uc84c\ub2e4."
 else{s=B.tB.i(0,p.bT)
@@ -74157,7 +74157,7 @@ r=p.y
 r===$&&A.a()
 r=r.e
 q=A.b([],t.p)
-if(p.B<3&&p.a9!=null)q.push(p.N8())
+if(p.B<1&&p.a9!=null)q.push(p.N8())
 q.push(A.bo("\uc0c8\ub85c \ub3c4\uc804",B.V,28,82,o,new A.agl(p),o,324))
 q.push(A.bo("\ub7ad\ud0b9 \ubcf4\uae30",B.ag,28,82,o,new A.agm(p),o,324))
 q.push(A.bo("\ucc98\uc74c \ud654\uba74",B.ag,28,82,o,p.gEx(),o,324))
@@ -82703,8 +82703,8 @@ B.xL=new A.oi(2,"inAppBrowserView")
 B.Qa=new A.oi(3,"externalApplication")
 B.xM=new A.oi(4,"externalNonBrowserApplication")
 B.Qb=new A.r2(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Qc=new A.j5("\ubb34\ub974\uae30 3/3",null,B.V,152,72,20,null,null,null)
-B.Qd=new A.j5("\ub418\uc0b4\ub9bc 1/1",null,B.V,150,72,20,null,null,null)
+B.Qc=new A.j5("\ub418\uc0b4\ub9bc 1/1",null,B.V,150,72,20,null,null,null)
+B.Qd=new A.j5("\ubb34\ub974\uae30 1/1",null,B.V,152,72,20,null,null,null)
 B.Qe=new A.j5("\ubc29\ud328 3/3",null,B.V,148,72,21,null,null,null)
 B.Qf=new A.j5("\ub418\uc0b4\ub9bc \uc608\uc57d",null,B.V,150,72,20,null,null,null)
 B.Qg=new A.j5("\ub2e4\uc2dc \ubf51\uae30 \ub2e4 \uc500",null,B.V,400,84,28,null,null,null)
