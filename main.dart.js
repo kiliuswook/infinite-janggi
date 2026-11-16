@@ -77868,7 +77868,7 @@ this.cq()
 this.hj()}}
 A.Ap.prototype={
 aa(){var s=$.at(),r=A.b([],t.jm),q=A.m9("",null)
-if(q==null)q=0
+if(q==null)q=3
 return new A.DI(new A.cz(0,s),r,q,!1,null,null)}}
 A.DI.prototype={
 au(){var s,r,q=this
@@ -77905,12 +77905,12 @@ if(this.r)return 0
 s=this.w
 if(s==null)return 1
 return B.c.ao((a-s)/2.5,0,1)},
-a4V(a,b){var s,r,q=this.at
-if(q===0)return 1
-if(this.r)s=a
-else{r=this.w
+a4V(a,b){var s,r,q=this,p=q.at
+if(p===0||!q.f)return 1
+if(q.r)s=a
+else{r=q.w
 s=r==null?0:r}r=new A.amu(a,s)
-switch(q){case 1:return 1+0.15*(1-B.cY.Z(r.$1(3.5)))
+switch(p){case 1:return 1+0.15*(1-B.cY.Z(r.$1(3.5)))
 case 2:return 1+0.05*B.fi.Z(r.$1(6))
 default:return 1+B.Lr[b]*(1-B.cY.Z(r.$1(3.5)))}},
 CL(a,b,c){return new A.dE(this.e,new A.amx(this,c,a),b,null,t.j3)},
