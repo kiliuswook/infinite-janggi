@@ -74341,24 +74341,29 @@ break
 case 8:case 4:++k
 s=3
 break
-case 5:d=l
-c="e_king_boss"
-s=10
+case 5:s=n?10:12
+break
+case 10:s=13
 return A.B(p.iJ("assets/pieces/e_king_boss.png"),$async$kD)
-case 10:d.m(0,c,b)
+case 13:o=b
+s=11
+break
+case 12:o=l.i(0,"e_king")
+o.toString
+case 11:l.m(0,"e_king_boss",o)
 o=p.dZ
 d=l
-s=11
+s=14
 return A.B(p.iJ(o==="default"?"assets/bg/board_parchment.jpg":"assets/skins/board_"+o+".jpg"),$async$kD)
-case 11:d.m(0,"wood",b)
+case 14:d.m(0,"wood",b)
 d=l
-s=12
+s=15
 return A.B(p.iJ("assets/ui/shield_icon.png"),$async$kD)
-case 12:d.m(0,"shield",b)
+case 15:d.m(0,"shield",b)
 d=l
-s=13
+s=16
 return A.B(p.iJ("assets/ui/vip_badge.png"),$async$kD)
-case 13:d.m(0,"vip",b)
+case 16:d.m(0,"vip",b)
 if(p.c==null){s=1
 break}p.x=!0
 p.FS(p.a.c)
@@ -77576,22 +77581,22 @@ A.B5.prototype={
 H(a){var s=null
 return A.bS(s,A.aQ(s,B.Jg,B.l,s,s,new A.ao(B.fh,s,A.bi(B.z,1.5),s,s,s,B.b9),s,34,s,s,s,s,s,34),B.F,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,this.c,s,s,s)}}
 A.vB.prototype={
-H(a){var s,r,q,p,o,n,m,l,k=null,j=this.c,i=B.dl.t(0,j),h=this.e,g=A.V(k,A.e_(j==="default"?"assets/bg/board_parchment.jpg":"assets/skins/board_"+j+".jpg",B.i,k,k,k,B.W,B.N,k,k,k),704,k,16,k,32,616),f=B.us.i(0,j),e=t.p
-f=A.b([g,A.V(k,A.ea(k,k,k,new A.P8(A.aW(f==null?4282133790:f),k),B.P),704,k,16,k,32,616)],e)
-if(i)f.push(A.V(k,A.e_("assets/skins/frames/frame_"+j+"_play.png",B.i,k,k,k,B.W,B.N,k,k,k),768,k,0,k,0,648))
-else B.b.J(f,A.b([A.V(k,A.e_("assets/skins/frames/blend_"+j+"_play.png",B.i,k,k,k,B.W,B.N,k,k,k),704,k,16,k,32,616),A.V(k,A.e_("assets/ui/board_frame.png",B.i,B.kp,k,k,B.W,k,k,2,k),736,k,0,k,16,648)],e))
-for(j=this.d,s=0;s<15;++s){g=B.Nk[s].a
-r=g[0]
-q=g[1]
-p=g[2]
-o=g[3]
-g=A.Wh(q)
-e=A.Wh(q)
-if(r==="e"&&q==="king")n="assets/pieces/e_king_boss.png"
-else n=j==="default"?"assets/pieces/"+r+"_"+q+".png":"assets/skins/pieces_"+j+"/"+r+"_"+q+".png"
-m=A.Wh(q)
+H(a){var s,r,q,p,o,n,m,l,k,j=null,i=this.c,h=B.dl.t(0,i),g=this.e,f=A.V(j,A.e_(i==="default"?"assets/bg/board_parchment.jpg":"assets/skins/board_"+i+".jpg",B.i,j,j,j,B.W,B.N,j,j,j),704,j,16,j,32,616),e=B.us.i(0,i),d=t.p
+e=A.b([f,A.V(j,A.ea(j,j,j,new A.P8(A.aW(e==null?4282133790:e),j),B.P),704,j,16,j,32,616)],d)
+if(h)e.push(A.V(j,A.e_("assets/skins/frames/frame_"+i+"_play.png",B.i,j,j,j,B.W,B.N,j,j,j),768,j,0,j,0,648))
+else B.b.J(e,A.b([A.V(j,A.e_("assets/skins/frames/blend_"+i+"_play.png",B.i,j,j,j,B.W,B.N,j,j,j),704,j,16,j,32,616),A.V(j,A.e_("assets/ui/board_frame.png",B.i,B.kp,j,j,B.W,j,j,2,j),736,j,0,j,16,648)],d))
+for(i=this.d,f=i==="default",s=0;s<15;++s){d=B.Nk[s].a
+r=d[0]
+q=d[1]
+p=d[2]
+o=d[3]
+d=A.Wh(q)
+n=A.Wh(q)
+if(r==="e"&&q==="king"&&f)m="assets/pieces/e_king_boss.png"
+else m=f?"assets/pieces/"+r+"_"+q+".png":"assets/skins/pieces_"+i+"/"+r+"_"+q+".png"
 l=A.Wh(q)
-f.push(new A.bV(60+p*88-g/2,76+o*88-e/2,k,k,k,k,A.e_(n,B.i,k,k,k,B.W,B.N,l,k,m),k))}return A.dH(A.ht(B.i,A.dH(A.bo(B.I,f,B.l,B.K),768,648),B.aa,k),h*768/648,h)}}
+k=A.Wh(q)
+e.push(new A.bV(60+p*88-d/2,76+o*88-n/2,j,j,j,j,A.e_(m,B.i,j,j,j,B.W,B.N,k,j,l),j))}return A.dH(A.ht(B.i,A.dH(A.bo(B.I,e,B.l,B.K),768,648),B.aa,j),g*768/648,g)}}
 A.P8.prototype={
 al(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=new A.ag9(),a3=this.b,a4=a2.$2(a3,3)
 for(s=a5.a,r=0;r<7;++r){q=44+r*88
