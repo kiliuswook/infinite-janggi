@@ -1023,7 +1023,7 @@ break A}if(B.ez===a||B.hi===a||B.vt===a){s=new A.y5(A.av9("8a2@q\u03a9qk1&kq3@q\
 break A}s=null}return s},
 aIM(a){var s
 if(a.length===0)return 98784247808
-s=B.Qz.h(0,a)
+s=B.Qy.h(0,a)
 return s==null?B.e.gu(a)+98784247808:s},
 axD(){var s=new A.L0(A.b([],t.k5),B.al),r=new A.a21(s)
 r.b=s
@@ -18017,7 +18017,7 @@ axz(a,b,c,d,e){return new A.rB(d,c,a,e,!1)},
 aIK(a){var s,r,q=a.d,p=B.QU.h(0,q)
 if(p==null)p=new A.o(q)
 q=a.e
-s=B.Qx.h(0,q)
+s=B.Qw.h(0,q)
 if(s==null)s=new A.h(q)
 r=a.a
 switch(a.b.a){case 0:return new A.kA(p,s,a.f,r,a.r)
@@ -18503,7 +18503,7 @@ if(s){s=B.c_.h(0,h)
 b=m.h(0,s==null?h:s)
 if(b!=null)g=b}}a=f==null?g:f
 return a==null?B.b.gV(a2):a},
-aMi(){return B.Qy},
+aMi(){return B.Qx},
 Bf:function Bf(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1){var _=this
 _.c=a
 _.d=b
@@ -23041,7 +23041,7 @@ return A.B($.ava().ud(a),$async$Wd)
 case 3:$.Le=Date.now()
 $.zz=0
 A.cy()
-A.a2n("ad_interstitial",B.QM)
+A.a2n("ad_interstitial",B.QL)
 case 1:return A.D(q,r)}})
 return A.E($async$Wd,r)},
 a4Z:function a4Z(){},
@@ -23167,8 +23167,8 @@ Zs:function Zs(a,b){this.a=a
 this.b=b},
 wS(a){var s,r
 for(s=1;r=s+1,a>=60*(r-1)*r;s=r);return s},
-awQ(a,b,c,d){var s=b*(8+4*a),r=b*(5+2*a)
-if(c){s+=100+50*a
+awQ(a,b,c,d){var s=b*(30+12*a),r=b*(5+2*a)
+if(c){s+=2400+900*a
 r+=40+20*a}return new A.pd(s,r,c&&d?10:0)},
 aHv(a){var s,r,q,p
 for(s=0,r=0,q=1;q<=a;++q){p=B.f.bI(q-1,10)
@@ -23773,7 +23773,7 @@ if(a.y)return A.qh("VIP \ubcf4\uc0c1 2\ubc30 \uc801\uc6a9",28,B.jf,null,1.15)
 if(a.x)return A.qh("\ubcf4\uc0c1\uc744 2\ubc30\ub85c \ubc1b\uc558\uc5b4\uc694",28,B.e_,null,1.15)
 s=$.da()
 r=B.aO[J.ce(s.a,0,2)]
-return A.bE("\uad11\uace0 \ubcf4\uace0 \uc5fd\uc804\xb7\uacbd\ud5d8\uce58 2\ubc30",B.a6,26*B.aO[J.ce(s.a,0,2)],72*r,"assets/ui/ad_icon.png",b,520)},
+return A.bE("\uad11\uace0 \ubcf4\uace0 \uacb0\uacfc \ubcf4\uc0c1 2\ubc30",B.a6,26*B.aO[J.ce(s.a,0,2)],72*r,"assets/ui/ad_icon.png",b,520)},
 aPJ(a,b,c){var s,r,q,p,o,n,m,l,k=null,j=A.aNM(a,c,1040-(B.f.bI(b.length+1,2)-1)*(92*B.aO[J.ce($.da().a,0,2)]+14)),i=A.bI(0,A.aK(a.w?"assets/bg/result_win.jpg":"assets/bg/result_lose.jpg",B.h,k,B.aC,k,k)),h=A.bI(0,B.It),g=t.p,f=A.b([],g)
 for(s=A.a3(b),r=s.c,s=s.i("hp<1>"),q=0;q<b.length;q+=2){p=A.b([],g)
 if(q>0)p.push(B.Yq)
@@ -28693,7 +28693,7 @@ A.a1W.prototype={
 $0(){this.a.f.A(0,this.b)},
 $S:0}
 A.a1P.prototype={
-$0(){var s,r,q,p,o,n,m=this,l=m.b,k=B.QE.h(0,l)
+$0(){var s,r,q,p,o,n,m=this,l=m.b,k=B.QD.h(0,l)
 if(k!=null)return k
 s=m.c
 r=s.a
@@ -29675,7 +29675,7 @@ switch(s.a){case"activateSystemCursor":q=a.gcc().b
 q=A.axp(new A.b7(q,A.n(q).i("b7<2>")))
 if(q!=null){if(q.w===$){q.ge2()
 q.w!==$&&A.aE()
-q.w=new A.a56()}h=B.QF.h(0,A.d0(m.h(0,"kind")))
+q.w=new A.a56()}h=B.QE.h(0,A.d0(m.h(0,"kind")))
 if(h==null)h="default"
 q=v.G
 if(h==="default")q.document.body.style.removeProperty("cursor")
@@ -41330,7 +41330,7 @@ return b instanceof A.fC&&b.a===this.a},
 gu(a){return this.a},
 j(a){var s=this.a
 if(B.f.aA(s,100)!==0)return"FontWeight("+s+")"
-s=B.QC.h(0,this.goX())
+s=B.QB.h(0,this.goX())
 s.toString
 return s}}
 A.jf.prototype={
@@ -45301,7 +45301,7 @@ n=o.e
 o=o.cx
 r=q.ga69()
 q.a.toString
-return new A.Bf(p,p,p,new A.ahT(),p,p,p,p,p,n,B.QN,p,p,p,B.oA,q.ga6q(),o,p,B.a17,s,p,r,p,p,B.ot,!1,!1,p,p,p,new A.oi(q,t.bT))},
+return new A.Bf(p,p,p,new A.ahT(),p,p,p,p,p,n,B.QM,p,p,p,B.oA,q.ga6q(),o,p,B.a17,s,p,r,p,p,B.ot,!1,!1,p,p,p,new A.oi(q,t.bT))},
 H(a){var s=this.a0G(a),r=this.a.to,q=this.d
 q===$&&A.a()
 return A.az1(r,new A.ok(q,s,null))}}
@@ -60911,9 +60911,9 @@ A.RB.prototype={}
 A.K8.prototype={
 giz(){var s=this.a,r=B.v_.h(0,s)
 return r==null?new A.o(98784247808+B.e.gu(s)):r},
-gGe(){var s,r=this.b,q=B.QO.h(0,r),p=q==null?null:q[this.c]
+gGe(){var s,r=this.b,q=B.QN.h(0,r),p=q==null?null:q[this.c]
 if(p!=null)return p
-s=B.QD.h(0,r)
+s=B.QC.h(0,r)
 if(s!=null)return s
 if(r.length===1)return new A.h(r.toLowerCase().charCodeAt(0))
 return new A.h(B.e.gu(this.a)+98784247808)},
@@ -64854,7 +64854,7 @@ a.b=r.d
 a.c=null},
 $S:390}
 A.mv.prototype={
-ab(){return new A.t7(B.QL)}}
+ab(){return new A.t7(B.QK)}}
 A.t7.prototype={
 az(){var s,r=this
 r.aT()
@@ -74526,7 +74526,7 @@ if(r.a>=0){s=this.aid(b,0,1)
 s.r=r
 a.m(0,r,s)}return r},
 Lw(a,b){var s,r,q,p,o
-for(s=B.QG.h(0,b),r=s.length,q=0;q<r;++q){p=s[q]
+for(s=B.QF.h(0,b),r=s.length,q=0;q<r;++q){p=s[q]
 if(!a.a2(p))return p}o=this.xp(a,b)
 return o.length!==0?B.b.gai(o):B.J},
 TP(a){if(a.b===0&&a.a!=="king")this.z.push(a)},
@@ -74586,7 +74586,7 @@ if(q<=0)return o.a}return new A.b2(a,s.i("b2<1>")).gV(0)},
 U3(a){var s
 this.tg()
 s=A.u(t.N,t.S)
-B.QH.a5(0,new A.a8t(this,a,s))
+B.QG.a5(0,new A.a8t(this,a,s))
 return s},
 akc(a){var s,r=this.U3(a),q=A.b([],t.s)
 for(;;){if(!(q.length<3&&r.a!==0))break
@@ -75457,7 +75457,7 @@ break}case 4:s=6
 return A.B(p.ol(m?a:o),$async$pj)
 case 6:case 1:return A.D(q,r)}})
 return A.E($async$pj,r)},
-QM(a){var s=B.Qu.h(0,a)
+QM(a){var s=B.QR.h(0,a)
 if(s==null)s=0
 return this.n?B.d.k_(s*1.5):s},
 ajl(){var s,r,q,p,o,n,m,l,k,j,i,h,g=this
@@ -75790,7 +75790,7 @@ case 4:p.eb(n.jk()?"\ubcf4\uc2a4 \uaca9\ud30c!":"\uc2b9\ub9ac!")
 p.go="clear"
 o=p.a.d
 n=p.y
-a0=o?10+4*B.f.bI(n.e-1,10):8+4*n.a
+a0=o?10+4*B.f.bI(n.e-1,10):30+12*n.a
 p.x1+=a0
 p.zi(a0,p.bs(B.mw))
 if(B.b.t(B.Mp,p.y.p8())){A.zy(null,++p.y.r,null)
@@ -75914,7 +75914,7 @@ p.dx="busy"
 p.fx=A.b([],t.T)
 p.j3(p.bs(a),B.OI,20,240,-80)
 o=p.bs(a)
-n=B.Qv.h(0,p.fb)
+n=B.Qu.h(0,p.fb)
 n.toString
 p.ax.push(new A.d8(o,n,B.Hp,30))
 p.aM()
@@ -76494,23 +76494,22 @@ s.aq="giveup"
 s.aM()},
 ahX(){this.bJ=null
 this.uc(!1,"giveup")},
-x_(){var s=0,r=A.F(t.H),q,p=this,o,n,m,l,k,j
+x_(){var s=0,r=A.F(t.H),q,p=this,o,n,m,l,k
 var $async$x_=A.G(function(a,b){if(a===1)return A.C(b,r)
-for(;;)switch(s){case 0:j=p.rx
-if(j==null||p.ao){s=1
+for(;;)switch(s){case 0:k=p.rx
+if(k==null||p.ao){s=1
 break}o=p.c
 o.toString
 s=3
 return A.B(A.k7(o,"double"),$async$x_)
 case 3:n=b
-if(p.c==null||!n||p.rx!==j||p.ao){s=1
+if(p.c==null||!n||p.rx!==k||p.ao){s=1
 break}p.ao=!0
 o=p.ry
-m=j.a
-l=p.to
-k=j.b
-p.ry=o+A.ayS(new A.pd(m+l,k,0))
-p.rx=new A.pd(m*2+p.to,k*2,j.c)
+m=k.a
+l=k.b
+p.ry=o+A.ayS(new A.pd(m,l,0))
+p.rx=new A.pd(m*2,l*2,k.c)
 p.QH(B.S4,B.dh,40,420,1,6)
 p.aM()
 case 1:return A.D(q,r)}})
@@ -78134,7 +78133,7 @@ j.r=B.HO.gp()
 c4.bQ(k,j)
 j=A.aBA(c0,2.4)
 k=new A.ai(B.o,B.m,B.p,B.q,B.n)
-k.r=B.QQ.h(0,l).gp()
+k.r=B.QP.h(0,l).gp()
 c4.bQ(j,k)}}r.restore()}},
 cK(a){return!0}}
 A.aev.prototype={
@@ -78397,17 +78396,17 @@ p=A.cu(0,r&&!j.e?250:80)
 r=A.Q(i,A.aK(Date.now()<$.d_&&!g?"assets/cards/vip_tall_"+h+".jpg":"assets/cards/tall_"+h+".jpg",B.aB,i,B.aC,i,i),408.14,i,10.26,i,10.26,207.48)
 o=A.bI(0,A.cR("assets/ui/card_frame_tall.png",B.h,B.Wh,i,i,B.O,B.H,i,1.7543859649122808,i))
 n=g?A.Q(i,A.aK("assets/ui/item_icon_"+h+".png",B.h,i,B.V,i,i),88,i,0,i,419.82,228):A.Q(i,A.aK("assets/ui/brush_"+h+".png",B.h,i,B.V,i,i),85.49999999999999,i,0,i,421.82,228)
-m=B.QJ.h(0,h)
+m=B.QI.h(0,h)
 m.toString
 m=A.a0(m,1,i,B.a2n,B.E,i)
-l=B.QR.h(0,h)
+l=B.QQ.h(0,h)
 l.toString
 k=t.p
 l=A.Q(i,A.eB(B.h,A.c1(A.b([m,A.a0(l,1,i,B.a_s,B.E,i)],k),B.v,B.A,B.x),B.aD,i),45.599999999999994,i,4,i,511.88,220)
 if(g)m="assets/ui/gem_item.png"
-else{m=B.QP.h(0,f)
+else{m=B.QO.h(0,f)
 m.toString}k=A.b([r,o,n,l,A.Q(i,A.aK(m,B.h,i,B.V,i,i),34.199999999999996,i,51.25,i,558.6199999999999,125.49999999999999)],k)
-if(g){r=B.Qw.h(0,h)
+if(g){r=B.Qv.h(0,h)
 k.push(A.Q(i,A.eB(B.h,A.a0(r==null?"":r,i,i,B.a2f,B.E,i),B.aD,i),64,i,6,i,600,216))}else k.push(A.Q(i,A.eu(B.aB,A.dT(i,i,i,new A.Qr(h,i),B.Yb),0.78),i,i,54,i,595.0999999999999,i))
 return A.bO(i,A.FJ(B.h,A.cG(A.ba(B.F,k,B.t,B.K),694.28,228),B.ar,p,q),B.G,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,s,new A.aiW(j),new A.aiX(j),new A.aiY(j))}}
 A.aj_.prototype={
@@ -78945,7 +78944,7 @@ break A}if("items"===a){s=A.aK("assets/ui/undo_icon.png",B.h,r,B.V,54,54)
 break A}if("skin"===a){s=A.aK("assets/skins/pieces_gold_dragon/p_king.png",B.h,r,B.H,58,58)
 break A}s=A.awh(A.aK("assets/generals/vip_p_king.png",B.aB,r,B.aC,54,54))
 break A}return s},
-abl(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=e.w,b=B.QI.h(0,c)
+abl(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=e.w,b=B.QH.h(0,c)
 if(b!=null)return A.ba(B.F,A.b([A.bI(0,A.aK("assets/vip/"+c+".jpg",B.h,d,B.aC,d,d)),B.TX,B.TV,A.Q(d,A.oV(b.a,B.E,B.by,34,7),d,d,0,0,362,d),A.Q(d,A.a0(b.b,d,d,B.a_N,B.E,d),d,d,0,0,406,d)],t.p),B.t,B.K)
 if(c==="daily"){s=A.bI(0,B.nG)
 r=t.p
@@ -83232,10 +83231,10 @@ A.adc.prototype={
 $1(a){var s,r,q,p=this.a
 p.pR(!1)
 s=p.b.error
-r=B.QA.h(0,s.code)
+r=B.Qz.h(0,s.code)
 r.toString
 q=!J.d(s.message,"")?s.message:"No further diagnostic information can be determined or provided."
-p.a.w2(new A.mm(r,q,B.QB.h(0,s.code),null))},
+p.a.w2(new A.mm(r,q,B.QA.h(0,s.code),null))},
 $S:1}
 A.add.prototype={
 $1(a){this.a.a.D(0,new A.i0(B.AZ,null,null,null,!0))},
@@ -87110,14 +87109,12 @@ B.kr=new A.m8(5,"spaceEvenly")
 B.aR=new A.J3(0,"min")
 B.Rq={mate:0,stuck:1,nopower:2,repeat:3,stale:4,giveup:5}
 B.uJ=new A.aY(B.Rq,["\uc655\uc774 \uc7a1\ud614\ub2e4 (\uc678\ud1b5\uc218).","\ub458 \uc218 \uc788\ub294 \uc218\uac00 \uc5c6\ub2e4.","\uc2f8\uc6b8 \ub9d0\uc774 \ub0a8\uc9c0 \uc54a\uc558\ub2e4.","\uac19\uc740 \ud310\uc774 \ub418\ud480\uc774\ub410\ub2e4 (\ube44\uae40\uc740 \ud328\ubc30).","40\uc218 \ub3d9\uc548 \uc2b9\ubd80\uac00 \ub098\uc9c0 \uc54a\uc558\ub2e4.","\uc2f8\uc6c0\uc744 \uadf8\ub9cc\ub450\uc5c8\ub2e4."],t.l)
-B.RL={soldier:0,elephant:1,guard:2,horse:3,cannon:4,chariot:5,king:6}
-B.Qu=new A.aY(B.RL,[3,5,5,6,7,10,30],t.eL)
-B.RB={pierce:0,spare:1,loot:2,pursue:3}
-B.Qv=new A.aY(B.RB,["\ud30c\uac11 \ud654\uc0b4!","\uc608\ube44 \ubc29\ud328!","\uc804\ub9ac\ud488 \ubc29\ud328!","\ucd94\uaca9 \uba85\ub839!"],t.l)
-B.RE={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,pierce:5,spare_shield:6,loot_shield:7,promote:8,pursue:9,bind:10,presence:11,supply:12}
-B.Qw=new A.aY(B.RE,["\ube48\uce78\uc5d0 \ud568\uc815 \ud558\ub098. \ubc1f\uc740 \ub9d0\uc740\n\uc4f0\ub7ec\uc9c0\uace0 \ubc29\ud328\ub294 \uae68\uc9c4\ub2e4","\ubc29\ud328 \uc5c6\ub294 \ub0b4 \ub9d0 \ud558\ub098\uc5d0\n\ubc14\ub85c \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc6e8\uc774\ube0c, \ub0b4 \ub9d0\uc774 \ubc1b\ub294\n\uccab \uacf5\uaca9\uc744 \ud55c \ubc88 \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\ub294\n\ub0b4\uac00 \uba3c\uc800 \ub454\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub0b4 \ub9d0 \uc804\uccb4\uc758\n\uc790\ub9ac\ub97c \ub2e4\uc2dc \uc815\ud55c\ub2e4","\ubc29\ud328 \uc788\ub294 \uc801\uc744 \ucc98\uc74c \uce60 \ub54c\n\ubc29\ud328\uc640 \ud568\uaed8 \uc7a1\ub294\ub2e4","\ubc29\ud328\uac00 \ucc98\uc74c \uae68\uc9c0\uba74\n\ud55c \uacb9\uc744 \ub2e4\uc2dc \ucc44\uc6b4\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ubc29\ud328 \ud55c \uacb9\uc744 \uc5bb\ub294\ub2e4","\uc878 \ud558\ub098\ub97c \ub9c8\xb7\uc0c1\xb7\ud3ec \uc911\n\ud558\ub098\ub85c \ubc14\uafbc\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\ub294 \uc0c1\ub300 \uccab \ucc28\ub840\uc5d0\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud55c\ub2e4","\ucc98\uc74c \uc7a5\uad70\uc744 \ubc1b\uc73c\uba74 \uc7a5\uad70 \uac74\n\uc801\ub4e4\uc758 \ubc29\ud328\ub97c \uc5c6\uc564\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\uc5d0 \uc801\uc744 \uc7a1\uc544 \ubc1b\ub294\n\uc5fd\uc804\uc774 1.5\ubc30"],t.l)
-B.Rt={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
-B.bp=new A.aY(B.Rt,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.l)
+B.RC={pierce:0,spare:1,loot:2,pursue:3}
+B.Qu=new A.aY(B.RC,["\ud30c\uac11 \ud654\uc0b4!","\uc608\ube44 \ubc29\ud328!","\uc804\ub9ac\ud488 \ubc29\ud328!","\ucd94\uaca9 \uba85\ub839!"],t.l)
+B.RF={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,pierce:5,spare_shield:6,loot_shield:7,promote:8,pursue:9,bind:10,presence:11,supply:12}
+B.Qv=new A.aY(B.RF,["\ube48\uce78\uc5d0 \ud568\uc815 \ud558\ub098. \ubc1f\uc740 \ub9d0\uc740\n\uc4f0\ub7ec\uc9c0\uace0 \ubc29\ud328\ub294 \uae68\uc9c4\ub2e4","\ubc29\ud328 \uc5c6\ub294 \ub0b4 \ub9d0 \ud558\ub098\uc5d0\n\ubc14\ub85c \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc6e8\uc774\ube0c, \ub0b4 \ub9d0\uc774 \ubc1b\ub294\n\uccab \uacf5\uaca9\uc744 \ud55c \ubc88 \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\ub294\n\ub0b4\uac00 \uba3c\uc800 \ub454\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub0b4 \ub9d0 \uc804\uccb4\uc758\n\uc790\ub9ac\ub97c \ub2e4\uc2dc \uc815\ud55c\ub2e4","\ubc29\ud328 \uc788\ub294 \uc801\uc744 \ucc98\uc74c \uce60 \ub54c\n\ubc29\ud328\uc640 \ud568\uaed8 \uc7a1\ub294\ub2e4","\ubc29\ud328\uac00 \ucc98\uc74c \uae68\uc9c0\uba74\n\ud55c \uacb9\uc744 \ub2e4\uc2dc \ucc44\uc6b4\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ubc29\ud328 \ud55c \uacb9\uc744 \uc5bb\ub294\ub2e4","\uc878 \ud558\ub098\ub97c \ub9c8\xb7\uc0c1\xb7\ud3ec \uc911\n\ud558\ub098\ub85c \ubc14\uafbc\ub2e4","\uadf8 \ub9d0\uc774 \ucc98\uc74c \uc801\uc744 \uc7a1\uc73c\uba74\n\ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\ub294 \uc0c1\ub300 \uccab \ucc28\ub840\uc5d0\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud55c\ub2e4","\ucc98\uc74c \uc7a5\uad70\uc744 \ubc1b\uc73c\uba74 \uc7a5\uad70 \uac74\n\uc801\ub4e4\uc758 \ubc29\ud328\ub97c \uc5c6\uc564\ub2e4","\ub2e4\uc74c \uc6e8\uc774\ube0c\uc5d0 \uc801\uc744 \uc7a1\uc544 \ubc1b\ub294\n\uc5fd\uc804\uc774 1.5\ubc30"],t.l)
+B.Ru={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
+B.bp=new A.aY(B.Ru,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.l)
 B.bB=new A.h(4294968065)
 B.l5=new A.a5(B.bB,!1,!1,!0,!1,B.u)
 B.bn=new A.h(4294968066)
@@ -87562,7 +87559,7 @@ B.Qj=new A.h(8589935388)
 B.Qk=new A.h(8589935389)
 B.Ql=new A.h(8589935390)
 B.Qm=new A.h(8589935391)
-B.Qx=new A.cX([32,B.oW,33,B.Pm,34,B.Pn,35,B.Po,36,B.Pp,37,B.Pq,38,B.Pr,39,B.Ps,40,B.Pt,41,B.Pu,42,B.oX,43,B.up,44,B.Pv,45,B.uq,46,B.ur,47,B.us,48,B.ut,49,B.uu,50,B.uv,51,B.uw,52,B.ux,53,B.uy,54,B.uz,55,B.uA,56,B.uB,57,B.uC,58,B.Pw,59,B.Px,60,B.Py,61,B.Pz,62,B.PA,63,B.PB,64,B.PC,91,B.Qn,92,B.Qo,93,B.Qp,94,B.Qq,95,B.Qr,96,B.Qs,97,B.ko,98,B.uH,99,B.kp,100,B.P3,101,B.oR,102,B.oS,103,B.P4,104,B.P5,105,B.P6,106,B.P7,107,B.P8,108,B.P9,109,B.Pa,110,B.oT,111,B.Pb,112,B.oU,113,B.Pc,114,B.Pd,115,B.Pe,116,B.oV,117,B.Pf,118,B.kd,119,B.Pg,120,B.ke,121,B.Ph,122,B.ek,123,B.Pi,124,B.Pj,125,B.Pk,126,B.Pl,4294967297,B.oY,4294967304,B.aP,4294967305,B.h1,4294967309,B.h2,4294967323,B.el,4294967423,B.aQ,4294967553,B.oZ,4294967555,B.h3,4294967556,B.em,4294967558,B.kf,4294967559,B.p_,4294967560,B.p0,4294967562,B.h4,4294967564,B.h5,4294967566,B.p1,4294967567,B.p2,4294967568,B.p3,4294967569,B.p4,4294968065,B.bB,4294968066,B.bn,4294968067,B.bo,4294968068,B.bC,4294968069,B.cF,4294968070,B.cG,4294968071,B.en,4294968072,B.eo,4294968321,B.kg,4294968322,B.p5,4294968323,B.p6,4294968324,B.p7,4294968325,B.p8,4294968326,B.p9,4294968327,B.ep,4294968328,B.pa,4294968329,B.pb,4294968330,B.pc,4294968577,B.pd,4294968578,B.pe,4294968579,B.pf,4294968580,B.pg,4294968581,B.ph,4294968582,B.pi,4294968583,B.pj,4294968584,B.pk,4294968585,B.pl,4294968586,B.pm,4294968587,B.pn,4294968588,B.po,4294968589,B.pp,4294968590,B.pq,4294968833,B.pr,4294968834,B.ps,4294968835,B.pt,4294968836,B.pu,4294968837,B.pv,4294968838,B.pw,4294968839,B.px,4294968840,B.py,4294968841,B.pz,4294968842,B.pA,4294968843,B.pB,4294969089,B.pC,4294969090,B.pD,4294969091,B.pE,4294969092,B.pF,4294969093,B.pG,4294969094,B.pH,4294969095,B.pI,4294969096,B.pJ,4294969097,B.pK,4294969098,B.pL,4294969099,B.pM,4294969100,B.pN,4294969101,B.pO,4294969102,B.pP,4294969103,B.pQ,4294969104,B.pR,4294969105,B.pS,4294969106,B.pT,4294969107,B.pU,4294969108,B.pV,4294969109,B.pW,4294969110,B.pX,4294969111,B.pY,4294969112,B.pZ,4294969113,B.q_,4294969114,B.q0,4294969115,B.q1,4294969116,B.q2,4294969117,B.q3,4294969345,B.q4,4294969346,B.q5,4294969347,B.q6,4294969348,B.q7,4294969349,B.q8,4294969350,B.q9,4294969351,B.qa,4294969352,B.qb,4294969353,B.qc,4294969354,B.qd,4294969355,B.qe,4294969356,B.qf,4294969357,B.qg,4294969358,B.qh,4294969359,B.qi,4294969360,B.qj,4294969361,B.qk,4294969362,B.ql,4294969363,B.qm,4294969364,B.qn,4294969365,B.qo,4294969366,B.qp,4294969367,B.qq,4294969368,B.qr,4294969601,B.qs,4294969602,B.qt,4294969603,B.qu,4294969604,B.qv,4294969605,B.qw,4294969606,B.qx,4294969607,B.qy,4294969608,B.qz,4294969857,B.qA,4294969858,B.qB,4294969859,B.qC,4294969860,B.qD,4294969861,B.qE,4294969863,B.qF,4294969864,B.qG,4294969865,B.qH,4294969866,B.qI,4294969867,B.qJ,4294969868,B.qK,4294969869,B.qL,4294969870,B.qM,4294969871,B.qN,4294969872,B.qO,4294969873,B.qP,4294970113,B.qQ,4294970114,B.qR,4294970115,B.qS,4294970116,B.qT,4294970117,B.qU,4294970118,B.qV,4294970119,B.qW,4294970120,B.qX,4294970121,B.qY,4294970122,B.qZ,4294970123,B.r_,4294970124,B.r0,4294970125,B.r1,4294970126,B.r2,4294970127,B.r3,4294970369,B.r4,4294970370,B.r5,4294970371,B.r6,4294970372,B.r7,4294970373,B.r8,4294970374,B.r9,4294970375,B.ra,4294970625,B.rb,4294970626,B.rc,4294970627,B.rd,4294970628,B.re,4294970629,B.rf,4294970630,B.rg,4294970631,B.rh,4294970632,B.ri,4294970633,B.rj,4294970634,B.rk,4294970635,B.rl,4294970636,B.rm,4294970637,B.rn,4294970638,B.ro,4294970639,B.rp,4294970640,B.rq,4294970641,B.rr,4294970642,B.rs,4294970643,B.rt,4294970644,B.ru,4294970645,B.rv,4294970646,B.rw,4294970647,B.rx,4294970648,B.ry,4294970649,B.rz,4294970650,B.rA,4294970651,B.rB,4294970652,B.rC,4294970653,B.rD,4294970654,B.rE,4294970655,B.rF,4294970656,B.rG,4294970657,B.rH,4294970658,B.rI,4294970659,B.rJ,4294970660,B.rK,4294970661,B.rL,4294970662,B.rM,4294970663,B.rN,4294970664,B.rO,4294970665,B.rP,4294970666,B.rQ,4294970667,B.rR,4294970668,B.rS,4294970669,B.rT,4294970670,B.rU,4294970671,B.rV,4294970672,B.rW,4294970673,B.rX,4294970674,B.rY,4294970675,B.rZ,4294970676,B.t_,4294970677,B.t0,4294970678,B.t1,4294970679,B.t2,4294970680,B.t3,4294970681,B.t4,4294970682,B.t5,4294970683,B.t6,4294970684,B.t7,4294970685,B.t8,4294970686,B.t9,4294970687,B.ta,4294970688,B.tb,4294970689,B.tc,4294970690,B.td,4294970691,B.te,4294970692,B.tf,4294970693,B.tg,4294970694,B.th,4294970695,B.ti,4294970696,B.tj,4294970697,B.tk,4294970698,B.tl,4294970699,B.tm,4294970700,B.tn,4294970701,B.to,4294970702,B.tp,4294970703,B.tq,4294970704,B.tr,4294970705,B.ts,4294970706,B.tt,4294970707,B.tu,4294970708,B.tv,4294970709,B.tw,4294970710,B.tx,4294970711,B.ty,4294970712,B.tz,4294970713,B.tA,4294970714,B.tB,4294970715,B.tC,4294970882,B.tD,4294970884,B.tE,4294970885,B.tF,4294970886,B.tG,4294970887,B.tH,4294970888,B.tI,4294970889,B.tJ,4294971137,B.tK,4294971138,B.tL,4294971393,B.tM,4294971394,B.tN,4294971395,B.tO,4294971396,B.tP,4294971397,B.tQ,4294971398,B.tR,4294971399,B.tS,4294971400,B.tT,4294971401,B.tU,4294971402,B.tV,4294971403,B.tW,4294971649,B.tX,4294971650,B.tY,4294971651,B.tZ,4294971652,B.u_,4294971653,B.u0,4294971654,B.u1,4294971655,B.u2,4294971656,B.u3,4294971657,B.u4,4294971658,B.u5,4294971659,B.u6,4294971660,B.u7,4294971661,B.u8,4294971662,B.u9,4294971663,B.ua,4294971664,B.ub,4294971665,B.uc,4294971666,B.ud,4294971667,B.ue,4294971668,B.uf,4294971669,B.ug,4294971670,B.uh,4294971671,B.ui,4294971672,B.uj,4294971673,B.uk,4294971674,B.ul,4294971675,B.um,4294971905,B.un,4294971906,B.uo,8589934592,B.PD,8589934593,B.PE,8589934594,B.PF,8589934595,B.PG,8589934608,B.PH,8589934609,B.PI,8589934610,B.PJ,8589934611,B.PK,8589934612,B.PL,8589934624,B.PM,8589934625,B.PN,8589934626,B.PO,8589934848,B.eq,8589934849,B.h6,8589934850,B.cH,8589934851,B.di,8589934852,B.er,8589934853,B.h7,8589934854,B.es,8589934855,B.h8,8589935088,B.kh,8589935090,B.ki,8589935092,B.kj,8589935094,B.kk,8589935117,B.kl,8589935144,B.PP,8589935145,B.PQ,8589935146,B.uD,8589935147,B.uE,8589935148,B.PR,8589935149,B.uF,8589935150,B.cI,8589935151,B.uG,8589935152,B.km,8589935153,B.et,8589935154,B.cJ,8589935155,B.eu,8589935156,B.cK,8589935157,B.kn,8589935158,B.cL,8589935159,B.ev,8589935160,B.cM,8589935161,B.ew,8589935165,B.PS,8589935361,B.PT,8589935362,B.PU,8589935363,B.PV,8589935364,B.PW,8589935365,B.PX,8589935366,B.PY,8589935367,B.PZ,8589935368,B.Q_,8589935369,B.Q0,8589935370,B.Q1,8589935371,B.Q2,8589935372,B.Q3,8589935373,B.Q4,8589935374,B.Q5,8589935375,B.Q6,8589935376,B.Q7,8589935377,B.Q8,8589935378,B.Q9,8589935379,B.Qa,8589935380,B.Qb,8589935381,B.Qc,8589935382,B.Qd,8589935383,B.Qe,8589935384,B.Qf,8589935385,B.Qg,8589935386,B.Qh,8589935387,B.Qi,8589935388,B.Qj,8589935389,B.Qk,8589935390,B.Ql,8589935391,B.Qm],A.ah("cX<k,h>"))
+B.Qw=new A.cX([32,B.oW,33,B.Pm,34,B.Pn,35,B.Po,36,B.Pp,37,B.Pq,38,B.Pr,39,B.Ps,40,B.Pt,41,B.Pu,42,B.oX,43,B.up,44,B.Pv,45,B.uq,46,B.ur,47,B.us,48,B.ut,49,B.uu,50,B.uv,51,B.uw,52,B.ux,53,B.uy,54,B.uz,55,B.uA,56,B.uB,57,B.uC,58,B.Pw,59,B.Px,60,B.Py,61,B.Pz,62,B.PA,63,B.PB,64,B.PC,91,B.Qn,92,B.Qo,93,B.Qp,94,B.Qq,95,B.Qr,96,B.Qs,97,B.ko,98,B.uH,99,B.kp,100,B.P3,101,B.oR,102,B.oS,103,B.P4,104,B.P5,105,B.P6,106,B.P7,107,B.P8,108,B.P9,109,B.Pa,110,B.oT,111,B.Pb,112,B.oU,113,B.Pc,114,B.Pd,115,B.Pe,116,B.oV,117,B.Pf,118,B.kd,119,B.Pg,120,B.ke,121,B.Ph,122,B.ek,123,B.Pi,124,B.Pj,125,B.Pk,126,B.Pl,4294967297,B.oY,4294967304,B.aP,4294967305,B.h1,4294967309,B.h2,4294967323,B.el,4294967423,B.aQ,4294967553,B.oZ,4294967555,B.h3,4294967556,B.em,4294967558,B.kf,4294967559,B.p_,4294967560,B.p0,4294967562,B.h4,4294967564,B.h5,4294967566,B.p1,4294967567,B.p2,4294967568,B.p3,4294967569,B.p4,4294968065,B.bB,4294968066,B.bn,4294968067,B.bo,4294968068,B.bC,4294968069,B.cF,4294968070,B.cG,4294968071,B.en,4294968072,B.eo,4294968321,B.kg,4294968322,B.p5,4294968323,B.p6,4294968324,B.p7,4294968325,B.p8,4294968326,B.p9,4294968327,B.ep,4294968328,B.pa,4294968329,B.pb,4294968330,B.pc,4294968577,B.pd,4294968578,B.pe,4294968579,B.pf,4294968580,B.pg,4294968581,B.ph,4294968582,B.pi,4294968583,B.pj,4294968584,B.pk,4294968585,B.pl,4294968586,B.pm,4294968587,B.pn,4294968588,B.po,4294968589,B.pp,4294968590,B.pq,4294968833,B.pr,4294968834,B.ps,4294968835,B.pt,4294968836,B.pu,4294968837,B.pv,4294968838,B.pw,4294968839,B.px,4294968840,B.py,4294968841,B.pz,4294968842,B.pA,4294968843,B.pB,4294969089,B.pC,4294969090,B.pD,4294969091,B.pE,4294969092,B.pF,4294969093,B.pG,4294969094,B.pH,4294969095,B.pI,4294969096,B.pJ,4294969097,B.pK,4294969098,B.pL,4294969099,B.pM,4294969100,B.pN,4294969101,B.pO,4294969102,B.pP,4294969103,B.pQ,4294969104,B.pR,4294969105,B.pS,4294969106,B.pT,4294969107,B.pU,4294969108,B.pV,4294969109,B.pW,4294969110,B.pX,4294969111,B.pY,4294969112,B.pZ,4294969113,B.q_,4294969114,B.q0,4294969115,B.q1,4294969116,B.q2,4294969117,B.q3,4294969345,B.q4,4294969346,B.q5,4294969347,B.q6,4294969348,B.q7,4294969349,B.q8,4294969350,B.q9,4294969351,B.qa,4294969352,B.qb,4294969353,B.qc,4294969354,B.qd,4294969355,B.qe,4294969356,B.qf,4294969357,B.qg,4294969358,B.qh,4294969359,B.qi,4294969360,B.qj,4294969361,B.qk,4294969362,B.ql,4294969363,B.qm,4294969364,B.qn,4294969365,B.qo,4294969366,B.qp,4294969367,B.qq,4294969368,B.qr,4294969601,B.qs,4294969602,B.qt,4294969603,B.qu,4294969604,B.qv,4294969605,B.qw,4294969606,B.qx,4294969607,B.qy,4294969608,B.qz,4294969857,B.qA,4294969858,B.qB,4294969859,B.qC,4294969860,B.qD,4294969861,B.qE,4294969863,B.qF,4294969864,B.qG,4294969865,B.qH,4294969866,B.qI,4294969867,B.qJ,4294969868,B.qK,4294969869,B.qL,4294969870,B.qM,4294969871,B.qN,4294969872,B.qO,4294969873,B.qP,4294970113,B.qQ,4294970114,B.qR,4294970115,B.qS,4294970116,B.qT,4294970117,B.qU,4294970118,B.qV,4294970119,B.qW,4294970120,B.qX,4294970121,B.qY,4294970122,B.qZ,4294970123,B.r_,4294970124,B.r0,4294970125,B.r1,4294970126,B.r2,4294970127,B.r3,4294970369,B.r4,4294970370,B.r5,4294970371,B.r6,4294970372,B.r7,4294970373,B.r8,4294970374,B.r9,4294970375,B.ra,4294970625,B.rb,4294970626,B.rc,4294970627,B.rd,4294970628,B.re,4294970629,B.rf,4294970630,B.rg,4294970631,B.rh,4294970632,B.ri,4294970633,B.rj,4294970634,B.rk,4294970635,B.rl,4294970636,B.rm,4294970637,B.rn,4294970638,B.ro,4294970639,B.rp,4294970640,B.rq,4294970641,B.rr,4294970642,B.rs,4294970643,B.rt,4294970644,B.ru,4294970645,B.rv,4294970646,B.rw,4294970647,B.rx,4294970648,B.ry,4294970649,B.rz,4294970650,B.rA,4294970651,B.rB,4294970652,B.rC,4294970653,B.rD,4294970654,B.rE,4294970655,B.rF,4294970656,B.rG,4294970657,B.rH,4294970658,B.rI,4294970659,B.rJ,4294970660,B.rK,4294970661,B.rL,4294970662,B.rM,4294970663,B.rN,4294970664,B.rO,4294970665,B.rP,4294970666,B.rQ,4294970667,B.rR,4294970668,B.rS,4294970669,B.rT,4294970670,B.rU,4294970671,B.rV,4294970672,B.rW,4294970673,B.rX,4294970674,B.rY,4294970675,B.rZ,4294970676,B.t_,4294970677,B.t0,4294970678,B.t1,4294970679,B.t2,4294970680,B.t3,4294970681,B.t4,4294970682,B.t5,4294970683,B.t6,4294970684,B.t7,4294970685,B.t8,4294970686,B.t9,4294970687,B.ta,4294970688,B.tb,4294970689,B.tc,4294970690,B.td,4294970691,B.te,4294970692,B.tf,4294970693,B.tg,4294970694,B.th,4294970695,B.ti,4294970696,B.tj,4294970697,B.tk,4294970698,B.tl,4294970699,B.tm,4294970700,B.tn,4294970701,B.to,4294970702,B.tp,4294970703,B.tq,4294970704,B.tr,4294970705,B.ts,4294970706,B.tt,4294970707,B.tu,4294970708,B.tv,4294970709,B.tw,4294970710,B.tx,4294970711,B.ty,4294970712,B.tz,4294970713,B.tA,4294970714,B.tB,4294970715,B.tC,4294970882,B.tD,4294970884,B.tE,4294970885,B.tF,4294970886,B.tG,4294970887,B.tH,4294970888,B.tI,4294970889,B.tJ,4294971137,B.tK,4294971138,B.tL,4294971393,B.tM,4294971394,B.tN,4294971395,B.tO,4294971396,B.tP,4294971397,B.tQ,4294971398,B.tR,4294971399,B.tS,4294971400,B.tT,4294971401,B.tU,4294971402,B.tV,4294971403,B.tW,4294971649,B.tX,4294971650,B.tY,4294971651,B.tZ,4294971652,B.u_,4294971653,B.u0,4294971654,B.u1,4294971655,B.u2,4294971656,B.u3,4294971657,B.u4,4294971658,B.u5,4294971659,B.u6,4294971660,B.u7,4294971661,B.u8,4294971662,B.u9,4294971663,B.ua,4294971664,B.ub,4294971665,B.uc,4294971666,B.ud,4294971667,B.ue,4294971668,B.uf,4294971669,B.ug,4294971670,B.uh,4294971671,B.ui,4294971672,B.uj,4294971673,B.uk,4294971674,B.ul,4294971675,B.um,4294971905,B.un,4294971906,B.uo,8589934592,B.PD,8589934593,B.PE,8589934594,B.PF,8589934595,B.PG,8589934608,B.PH,8589934609,B.PI,8589934610,B.PJ,8589934611,B.PK,8589934612,B.PL,8589934624,B.PM,8589934625,B.PN,8589934626,B.PO,8589934848,B.eq,8589934849,B.h6,8589934850,B.cH,8589934851,B.di,8589934852,B.er,8589934853,B.h7,8589934854,B.es,8589934855,B.h8,8589935088,B.kh,8589935090,B.ki,8589935092,B.kj,8589935094,B.kk,8589935117,B.kl,8589935144,B.PP,8589935145,B.PQ,8589935146,B.uD,8589935147,B.uE,8589935148,B.PR,8589935149,B.uF,8589935150,B.cI,8589935151,B.uG,8589935152,B.km,8589935153,B.et,8589935154,B.cJ,8589935155,B.eu,8589935156,B.cK,8589935157,B.kn,8589935158,B.cL,8589935159,B.ev,8589935160,B.cM,8589935161,B.ew,8589935165,B.PS,8589935361,B.PT,8589935362,B.PU,8589935363,B.PV,8589935364,B.PW,8589935365,B.PX,8589935366,B.PY,8589935367,B.PZ,8589935368,B.Q_,8589935369,B.Q0,8589935370,B.Q1,8589935371,B.Q2,8589935372,B.Q3,8589935373,B.Q4,8589935374,B.Q5,8589935375,B.Q6,8589935376,B.Q7,8589935377,B.Q8,8589935378,B.Q9,8589935379,B.Qa,8589935380,B.Qb,8589935381,B.Qc,8589935382,B.Qd,8589935383,B.Qe,8589935384,B.Qf,8589935385,B.Qg,8589935386,B.Qh,8589935387,B.Qi,8589935388,B.Qj,8589935389,B.Qk,8589935390,B.Ql,8589935391,B.Qm],A.ah("cX<k,h>"))
 B.XK=new A.a5(B.kl,!1,!1,!1,!1,B.u)
 B.A5=new A.a5(B.el,!1,!1,!1,!1,B.u)
 B.A6=new A.a5(B.h1,!1,!1,!1,!1,B.u)
@@ -87580,7 +87577,7 @@ B.Wp=new A.fK(B.be,B.hw)
 B.Ws=new A.fK(B.bf,B.hw)
 B.Wr=new A.fK(B.cs,B.hw)
 B.zu=new A.fK(B.bd,B.kT)
-B.Qy=new A.cX([B.hG,B.Dh,B.hJ,B.m1,B.XK,B.m1,B.A5,B.CJ,B.A6,B.D6,B.zV,B.Df,B.hM,B.Wq,B.hN,B.Wp,B.hK,B.Ws,B.hL,B.Wr,B.eI,B.zu,B.eL,B.kU],t.Fp)
+B.Qx=new A.cX([B.hG,B.Dh,B.hJ,B.m1,B.XK,B.m1,B.A5,B.CJ,B.A6,B.D6,B.zV,B.Df,B.hM,B.Wq,B.hN,B.Wp,B.hK,B.Ws,B.hL,B.Wr,B.eI,B.zu,B.eL,B.kU],t.Fp)
 B.vh={soldier:0,guard:1,elephant:2,horse:3,cannon:4,chariot:5}
 B.UC=new A.Z(5400,15)
 B.UH=new A.Z(7300,20)
@@ -87590,18 +87587,18 @@ B.Ur=new A.Z(14500,40)
 B.Uu=new A.Z(25400,70)
 B.uL=new A.aY(B.vh,[B.UC,B.UH,B.Up,B.Uq,B.Ur,B.Uu],A.ah("aY<q,+(k,k)>"))
 B.uM=new A.aY(B.vh,[4,2,2,2,2,2],t.eL)
-B.Rs={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
-B.Qz=new A.aY(B.Rs,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
-B.QA=new A.cX([1,"MEDIA_ERR_ABORTED",2,"MEDIA_ERR_NETWORK",3,"MEDIA_ERR_DECODE",4,"MEDIA_ERR_SRC_NOT_SUPPORTED"],t.TM)
-B.QB=new A.cX([1,"The user canceled the fetching of the video.",2,"A network error occurred while fetching the video, despite having previously been available.",3,"An error occurred while trying to decode the video, despite having previously been determined to be usable.",4,"The video has been found to be unsuitable (missing or in a format not supported by your browser)."],t.TM)
-B.QC=new A.cX([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],t.TM)
-B.RC={undo:0,shield:1,pass:2}
-B.uN=new A.aY(B.RC,["\ubb34\ub974\uae30","\ubc29\ud328","\ud55c \uc218 \uc27c"],t.l)
+B.Rt={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
+B.Qy=new A.aY(B.Rt,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
+B.Qz=new A.cX([1,"MEDIA_ERR_ABORTED",2,"MEDIA_ERR_NETWORK",3,"MEDIA_ERR_DECODE",4,"MEDIA_ERR_SRC_NOT_SUPPORTED"],t.TM)
+B.QA=new A.cX([1,"The user canceled the fetching of the video.",2,"A network error occurred while fetching the video, despite having previously been available.",3,"An error occurred while trying to decode the video, despite having previously been determined to be usable.",4,"The video has been found to be unsuitable (missing or in a format not supported by your browser)."],t.TM)
+B.QB=new A.cX([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],t.TM)
+B.RD={undo:0,shield:1,pass:2}
+B.uN=new A.aY(B.RD,["\ubb34\ub974\uae30","\ubc29\ud328","\ud55c \uc218 \uc27c"],t.l)
 B.vg={AVRInput:0,AVRPower:1,Accel:2,Accept:3,Again:4,AllCandidates:5,Alphanumeric:6,AltGraph:7,AppSwitch:8,ArrowDown:9,ArrowLeft:10,ArrowRight:11,ArrowUp:12,Attn:13,AudioBalanceLeft:14,AudioBalanceRight:15,AudioBassBoostDown:16,AudioBassBoostToggle:17,AudioBassBoostUp:18,AudioFaderFront:19,AudioFaderRear:20,AudioSurroundModeNext:21,AudioTrebleDown:22,AudioTrebleUp:23,AudioVolumeDown:24,AudioVolumeMute:25,AudioVolumeUp:26,Backspace:27,BrightnessDown:28,BrightnessUp:29,BrowserBack:30,BrowserFavorites:31,BrowserForward:32,BrowserHome:33,BrowserRefresh:34,BrowserSearch:35,BrowserStop:36,Call:37,Camera:38,CameraFocus:39,Cancel:40,CapsLock:41,ChannelDown:42,ChannelUp:43,Clear:44,Close:45,ClosedCaptionToggle:46,CodeInput:47,ColorF0Red:48,ColorF1Green:49,ColorF2Yellow:50,ColorF3Blue:51,ColorF4Grey:52,ColorF5Brown:53,Compose:54,ContextMenu:55,Convert:56,Copy:57,CrSel:58,Cut:59,DVR:60,Delete:61,Dimmer:62,DisplaySwap:63,Eisu:64,Eject:65,End:66,EndCall:67,Enter:68,EraseEof:69,Esc:70,Escape:71,ExSel:72,Execute:73,Exit:74,F1:75,F10:76,F11:77,F12:78,F13:79,F14:80,F15:81,F16:82,F17:83,F18:84,F19:85,F2:86,F20:87,F21:88,F22:89,F23:90,F24:91,F3:92,F4:93,F5:94,F6:95,F7:96,F8:97,F9:98,FavoriteClear0:99,FavoriteClear1:100,FavoriteClear2:101,FavoriteClear3:102,FavoriteRecall0:103,FavoriteRecall1:104,FavoriteRecall2:105,FavoriteRecall3:106,FavoriteStore0:107,FavoriteStore1:108,FavoriteStore2:109,FavoriteStore3:110,FinalMode:111,Find:112,Fn:113,FnLock:114,GoBack:115,GoHome:116,GroupFirst:117,GroupLast:118,GroupNext:119,GroupPrevious:120,Guide:121,GuideNextDay:122,GuidePreviousDay:123,HangulMode:124,HanjaMode:125,Hankaku:126,HeadsetHook:127,Help:128,Hibernate:129,Hiragana:130,HiraganaKatakana:131,Home:132,Hyper:133,Info:134,Insert:135,InstantReplay:136,JunjaMode:137,KanaMode:138,KanjiMode:139,Katakana:140,Key11:141,Key12:142,LastNumberRedial:143,LaunchApplication1:144,LaunchApplication2:145,LaunchAssistant:146,LaunchCalendar:147,LaunchContacts:148,LaunchControlPanel:149,LaunchMail:150,LaunchMediaPlayer:151,LaunchMusicPlayer:152,LaunchPhone:153,LaunchScreenSaver:154,LaunchSpreadsheet:155,LaunchWebBrowser:156,LaunchWebCam:157,LaunchWordProcessor:158,Link:159,ListProgram:160,LiveContent:161,Lock:162,LogOff:163,MailForward:164,MailReply:165,MailSend:166,MannerMode:167,MediaApps:168,MediaAudioTrack:169,MediaClose:170,MediaFastForward:171,MediaLast:172,MediaPause:173,MediaPlay:174,MediaPlayPause:175,MediaRecord:176,MediaRewind:177,MediaSkip:178,MediaSkipBackward:179,MediaSkipForward:180,MediaStepBackward:181,MediaStepForward:182,MediaStop:183,MediaTopMenu:184,MediaTrackNext:185,MediaTrackPrevious:186,MicrophoneToggle:187,MicrophoneVolumeDown:188,MicrophoneVolumeMute:189,MicrophoneVolumeUp:190,ModeChange:191,NavigateIn:192,NavigateNext:193,NavigateOut:194,NavigatePrevious:195,New:196,NextCandidate:197,NextFavoriteChannel:198,NextUserProfile:199,NonConvert:200,Notification:201,NumLock:202,OnDemand:203,Open:204,PageDown:205,PageUp:206,Pairing:207,Paste:208,Pause:209,PinPDown:210,PinPMove:211,PinPToggle:212,PinPUp:213,Play:214,PlaySpeedDown:215,PlaySpeedReset:216,PlaySpeedUp:217,Power:218,PowerOff:219,PreviousCandidate:220,Print:221,PrintScreen:222,Process:223,Props:224,RandomToggle:225,RcLowBattery:226,RecordSpeedNext:227,Redo:228,RfBypass:229,Romaji:230,STBInput:231,STBPower:232,Save:233,ScanChannelsToggle:234,ScreenModeNext:235,ScrollLock:236,Select:237,Settings:238,ShiftLevel5:239,SingleCandidate:240,Soft1:241,Soft2:242,Soft3:243,Soft4:244,Soft5:245,Soft6:246,Soft7:247,Soft8:248,SpeechCorrectionList:249,SpeechInputToggle:250,SpellCheck:251,SplitScreenToggle:252,Standby:253,Subtitle:254,Super:255,Symbol:256,SymbolLock:257,TV:258,TV3DMode:259,TVAntennaCable:260,TVAudioDescription:261,TVAudioDescriptionMixDown:262,TVAudioDescriptionMixUp:263,TVContentsMenu:264,TVDataService:265,TVInput:266,TVInputComponent1:267,TVInputComponent2:268,TVInputComposite1:269,TVInputComposite2:270,TVInputHDMI1:271,TVInputHDMI2:272,TVInputHDMI3:273,TVInputHDMI4:274,TVInputVGA1:275,TVMediaContext:276,TVNetwork:277,TVNumberEntry:278,TVPower:279,TVRadioService:280,TVSatellite:281,TVSatelliteBS:282,TVSatelliteCS:283,TVSatelliteToggle:284,TVTerrestrialAnalog:285,TVTerrestrialDigital:286,TVTimer:287,Tab:288,Teletext:289,Undo:290,Unidentified:291,VideoModeNext:292,VoiceDial:293,WakeUp:294,Wink:295,Zenkaku:296,ZenkakuHankaku:297,ZoomIn:298,ZoomOut:299,ZoomToggle:300}
-B.QD=new A.aY(B.vg,[B.ri,B.rj,B.oZ,B.pd,B.pe,B.pC,B.pD,B.h3,B.tM,B.bB,B.bn,B.bo,B.bC,B.pf,B.rb,B.rc,B.rd,B.tD,B.re,B.rf,B.rg,B.rh,B.tE,B.tF,B.qN,B.qP,B.qO,B.aP,B.pr,B.ps,B.r4,B.r5,B.r6,B.r7,B.r8,B.r9,B.ra,B.tN,B.pt,B.tO,B.pg,B.em,B.rk,B.rl,B.kg,B.qA,B.rs,B.pE,B.rm,B.rn,B.ro,B.rp,B.rq,B.rr,B.pF,B.ph,B.pG,B.p5,B.p6,B.p7,B.tq,B.aQ,B.rt,B.ru,B.pV,B.pu,B.cF,B.tP,B.h2,B.p8,B.el,B.el,B.p9,B.pi,B.rv,B.q4,B.qd,B.qe,B.qf,B.qg,B.qh,B.qi,B.qj,B.qk,B.ql,B.qm,B.q5,B.qn,B.qo,B.qp,B.qq,B.qr,B.q6,B.q7,B.q8,B.q9,B.qa,B.qb,B.qc,B.rw,B.rx,B.ry,B.rz,B.rA,B.rB,B.rC,B.rD,B.rE,B.rF,B.rG,B.rH,B.pH,B.pj,B.kf,B.p_,B.tQ,B.tR,B.pI,B.pJ,B.pK,B.pL,B.rI,B.rJ,B.rK,B.pS,B.pT,B.pW,B.tS,B.pk,B.pz,B.pX,B.pY,B.cG,B.p0,B.rL,B.ep,B.rM,B.pU,B.pZ,B.q_,B.q0,B.un,B.uo,B.tT,B.qV,B.qQ,B.r2,B.qR,B.r0,B.r3,B.qS,B.qT,B.qU,B.r1,B.qW,B.qX,B.qY,B.qZ,B.r_,B.rN,B.rO,B.rP,B.rQ,B.pv,B.qB,B.qC,B.qD,B.tV,B.rR,B.tr,B.tC,B.rS,B.rT,B.rU,B.rV,B.qE,B.rW,B.rX,B.rY,B.ts,B.tt,B.tu,B.tv,B.qF,B.tw,B.qG,B.qH,B.tG,B.tH,B.tJ,B.tI,B.pM,B.tx,B.ty,B.tz,B.tA,B.qI,B.pN,B.rZ,B.t_,B.pO,B.tU,B.h4,B.t0,B.qJ,B.en,B.eo,B.tB,B.pa,B.pl,B.t1,B.t2,B.t3,B.t4,B.pm,B.t5,B.t6,B.t7,B.pw,B.px,B.pP,B.qK,B.py,B.pQ,B.pn,B.t8,B.t9,B.ta,B.pb,B.tb,B.q1,B.tg,B.th,B.qL,B.tc,B.td,B.h5,B.po,B.te,B.p4,B.pR,B.qs,B.qt,B.qu,B.qv,B.qw,B.qx,B.qy,B.qz,B.tK,B.tL,B.qM,B.tf,B.pA,B.ti,B.p1,B.p2,B.p3,B.tk,B.tX,B.tY,B.tZ,B.u_,B.u0,B.u1,B.u2,B.tl,B.u3,B.u4,B.u5,B.u6,B.u7,B.u8,B.u9,B.ua,B.ub,B.uc,B.ud,B.ue,B.tm,B.uf,B.ug,B.uh,B.ui,B.uj,B.uk,B.ul,B.um,B.h1,B.tj,B.pc,B.oY,B.tn,B.tW,B.pB,B.to,B.q2,B.q3,B.pp,B.pq,B.tp],A.ah("aY<q,h>"))
-B.QE=new A.aY(B.vg,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.eL)
+B.QC=new A.aY(B.vg,[B.ri,B.rj,B.oZ,B.pd,B.pe,B.pC,B.pD,B.h3,B.tM,B.bB,B.bn,B.bo,B.bC,B.pf,B.rb,B.rc,B.rd,B.tD,B.re,B.rf,B.rg,B.rh,B.tE,B.tF,B.qN,B.qP,B.qO,B.aP,B.pr,B.ps,B.r4,B.r5,B.r6,B.r7,B.r8,B.r9,B.ra,B.tN,B.pt,B.tO,B.pg,B.em,B.rk,B.rl,B.kg,B.qA,B.rs,B.pE,B.rm,B.rn,B.ro,B.rp,B.rq,B.rr,B.pF,B.ph,B.pG,B.p5,B.p6,B.p7,B.tq,B.aQ,B.rt,B.ru,B.pV,B.pu,B.cF,B.tP,B.h2,B.p8,B.el,B.el,B.p9,B.pi,B.rv,B.q4,B.qd,B.qe,B.qf,B.qg,B.qh,B.qi,B.qj,B.qk,B.ql,B.qm,B.q5,B.qn,B.qo,B.qp,B.qq,B.qr,B.q6,B.q7,B.q8,B.q9,B.qa,B.qb,B.qc,B.rw,B.rx,B.ry,B.rz,B.rA,B.rB,B.rC,B.rD,B.rE,B.rF,B.rG,B.rH,B.pH,B.pj,B.kf,B.p_,B.tQ,B.tR,B.pI,B.pJ,B.pK,B.pL,B.rI,B.rJ,B.rK,B.pS,B.pT,B.pW,B.tS,B.pk,B.pz,B.pX,B.pY,B.cG,B.p0,B.rL,B.ep,B.rM,B.pU,B.pZ,B.q_,B.q0,B.un,B.uo,B.tT,B.qV,B.qQ,B.r2,B.qR,B.r0,B.r3,B.qS,B.qT,B.qU,B.r1,B.qW,B.qX,B.qY,B.qZ,B.r_,B.rN,B.rO,B.rP,B.rQ,B.pv,B.qB,B.qC,B.qD,B.tV,B.rR,B.tr,B.tC,B.rS,B.rT,B.rU,B.rV,B.qE,B.rW,B.rX,B.rY,B.ts,B.tt,B.tu,B.tv,B.qF,B.tw,B.qG,B.qH,B.tG,B.tH,B.tJ,B.tI,B.pM,B.tx,B.ty,B.tz,B.tA,B.qI,B.pN,B.rZ,B.t_,B.pO,B.tU,B.h4,B.t0,B.qJ,B.en,B.eo,B.tB,B.pa,B.pl,B.t1,B.t2,B.t3,B.t4,B.pm,B.t5,B.t6,B.t7,B.pw,B.px,B.pP,B.qK,B.py,B.pQ,B.pn,B.t8,B.t9,B.ta,B.pb,B.tb,B.q1,B.tg,B.th,B.qL,B.tc,B.td,B.h5,B.po,B.te,B.p4,B.pR,B.qs,B.qt,B.qu,B.qv,B.qw,B.qx,B.qy,B.qz,B.tK,B.tL,B.qM,B.tf,B.pA,B.ti,B.p1,B.p2,B.p3,B.tk,B.tX,B.tY,B.tZ,B.u_,B.u0,B.u1,B.u2,B.tl,B.u3,B.u4,B.u5,B.u6,B.u7,B.u8,B.u9,B.ua,B.ub,B.uc,B.ud,B.ue,B.tm,B.uf,B.ug,B.uh,B.ui,B.uj,B.uk,B.ul,B.um,B.h1,B.tj,B.pc,B.oY,B.tn,B.tW,B.pB,B.to,B.q2,B.q3,B.pp,B.pq,B.tp],A.ah("aY<q,h>"))
+B.QD=new A.aY(B.vg,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.eL)
 B.RM={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
-B.QF=new A.aY(B.RM,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.l)
+B.QE=new A.aY(B.RM,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.l)
 B.XZ=new A.a5(B.aP,!1,!1,!1,!1,B.u)
 B.Xv=new A.a5(B.aP,!1,!0,!1,!1,B.u)
 B.zU=new A.a5(B.aQ,!1,!1,!1,!1,B.u)
@@ -87637,34 +87634,34 @@ B.Mn=s([B.DX,B.Ea,B.fg,B.fj],t.T)
 B.DT=new A.ag(0,5)
 B.Ed=new A.ag(6,5)
 B.NH=s([B.mv,B.mz,B.DT,B.Ed,B.fg,B.fj],t.T)
-B.QG=new A.aY(B.Rm,[B.MP,B.Oj,B.Oc,B.Nb,B.MC,B.Mn,B.NH],A.ah("aY<q,U<ag>>"))
+B.QF=new A.aY(B.Rm,[B.MP,B.Oj,B.Oc,B.Nb,B.MC,B.Mn,B.NH],A.ah("aY<q,U<ag>>"))
 B.vi={soldier:0,horse:1,elephant:2,cannon:3,guard:4,chariot:5}
 B.uP=new A.aY(B.vi,[1,2,2,2,2,3],t.eL)
-B.QH=new A.aY(B.vi,[3,2,2,2,2,1],t.eL)
-B.RH={ad:0,dia:1,double:2,chariot:3,items:4,skin:5}
+B.QG=new A.aY(B.vi,[3,2,2,2,2,1],t.eL)
+B.RI={ad:0,dia:1,double:2,chariot:3,items:4,skin:5}
 B.UR=new A.Z("\uad11\uace0 \uc5c6\uc774 \ubc14\ub85c \ub2e4\uc74c \ud310\uc73c\ub85c","\ud310\uc774 \ub05d\ub098\ub3c4 \uad11\uace0\uac00 \ub098\uc624\uc9c0 \uc54a\uc544\uc694")
 B.US=new A.Z("\ubc14\ub85c \uae08\uc6d0\ubcf4 120","\uc0ac\ub294 \uc21c\uac04 \ubc14\ub85c \ubc1b\uc544\uc694")
 B.UP=new A.Z("\uc5fd\uc804 \xd72 \xb7 \uacbd\ud5d8\uce58 \xd72","\ud310\ub9c8\ub2e4 \ubc1b\ub294 \ubcf4\uc0c1\uc774 \ub450 \ubc30")
 B.V8=new A.Z("VIP \uc2ac\ub86f: \ucc28 \ubcf4\uc720 \uc81c\ud55c +1","\u203b \uc785\ubb38 \ud328\ud0a4\uc9c0\uc758 \ucc28 +1 \ud6a8\uacfc\uc640 \ud568\uaed8 \uc313\uc5ec\uc694")
 B.UY=new A.Z("\ub9e4\uc77c \uc544\uc774\ud15c 2\uc885","\ubb34\ub974\uae30\xb7\ubc29\ud328\ub97c \ub0a0\ub9c8\ub2e4 \ud558\ub098\uc529")
 B.UL=new A.Z("\ud669\uae08 \ud310 \xb7 \ud669\uae08 \ub9d0","\ub0b4 \ub9d0\ub3c4 \uc0c1\ub300 \ub9d0\ub3c4 \ubaa8\ub450 \ud669\uae08 \uc6a9 \ub9d0\ub85c \ubc14\ub00c\uc5b4\uc694")
-B.QI=new A.aY(B.RH,[B.UR,B.US,B.UP,B.V8,B.UY,B.UL],A.ah("aY<q,+(q,q)>"))
+B.QH=new A.aY(B.RI,[B.UR,B.US,B.UP,B.V8,B.UY,B.UL],A.ah("aY<q,+(q,q)>"))
 B.kD={king:0,guard:1,chariot:2,cannon:3,horse:4,elephant:5,soldier:6}
 B.ha=new A.aY(B.kD,["\uc655(\uad81)","\uc0ac","\ucc28","\ud3ec","\ub9c8","\uc0c1","\uc878\xb7\ubcd1"],t.l)
 B.cN=new A.aY(B.kD,["\uc655","\uc0ac","\ucc28","\ud3ec","\ub9c8","\uc0c1","\uc878"],t.l)
 B.ey=new A.aY(B.kD,[1000,3,13,7,5,3,2],t.eL)
 B.RQ={pursue:0,bind:1,presence:2,supply:3,pierce:4,spare_shield:5,loot_shield:6,promote:7,shield_gift:8,guard_array:9,drum:10,regroup:11,trap:12,guard:13,chariot:14,cannon:15,horse:16,elephant:17,soldier:18}
-B.QJ=new A.aY(B.RQ,["\ucd94\uaca9 \uba85\ub839","\ud3ec\ubc15 \ubc27\uc904","\uc7a5\uad70\uc758 \uc704\uc138","\uad70\ub7c9 \ubcf4\uae09","\ud30c\uac11 \ud654\uc0b4","\uc608\ube44 \ubc29\ud328","\uc804\ub9ac\ud488 \ubc29\ud328","\uc878 \uc2b9\uc9c4","\ubc29\ud328 \uc9c0\uae09","\uc218\ud638\uc9c4","\uc120\uacf5 \ubd81","\uc7ac\uc815\ube44 \uba85\ub839","\ud568\uc815 \uc124\uce58","\uc0ac \xb7 \ud638\uc704 \ucc38\ubaa8","\ucc28 \xb7 \uc804\ucc28\ub300","\ud3ec \xb7 \ud654\ud3ec \uc7a5\uc778","\ub9c8 \xb7 \uae30\ubcd1","\uc0c1 \xb7 \ucf54\ub07c\ub9ac \uc911\uc7a5\ubcd1","\uc878 \xb7 \ubcf4\ubcd1"],t.l)
+B.QI=new A.aY(B.RQ,["\ucd94\uaca9 \uba85\ub839","\ud3ec\ubc15 \ubc27\uc904","\uc7a5\uad70\uc758 \uc704\uc138","\uad70\ub7c9 \ubcf4\uae09","\ud30c\uac11 \ud654\uc0b4","\uc608\ube44 \ubc29\ud328","\uc804\ub9ac\ud488 \ubc29\ud328","\uc878 \uc2b9\uc9c4","\ubc29\ud328 \uc9c0\uae09","\uc218\ud638\uc9c4","\uc120\uacf5 \ubd81","\uc7ac\uc815\ube44 \uba85\ub839","\ud568\uc815 \uc124\uce58","\uc0ac \xb7 \ud638\uc704 \ucc38\ubaa8","\ucc28 \xb7 \uc804\ucc28\ub300","\ud3ec \xb7 \ud654\ud3ec \uc7a5\uc778","\ub9c8 \xb7 \uae30\ubcd1","\uc0c1 \xb7 \ucf54\ub07c\ub9ac \uc911\uc7a5\ubcd1","\uc878 \xb7 \ubcf4\ubcd1"],t.l)
 B.RP={type:0}
-B.QK=new A.aY(B.RP,["line"],t.l)
+B.QJ=new A.aY(B.RP,["line"],t.l)
 B.uS=new A.aY(B.aX,[],A.ah("aY<K,aA8>"))
 B.hb=new A.aY(B.aX,[],A.ah("aY<ts,b1>"))
-B.QN=new A.aY(B.aX,[],A.ah("aY<q,e(R)>"))
+B.QM=new A.aY(B.aX,[],A.ah("aY<q,e(R)>"))
 B.uQ=new A.aY(B.aX,[],A.ah("aY<q,U<q>>"))
 B.ks=new A.aY(B.aX,[],A.ah("aY<q,@>"))
-B.QM=new A.aY(B.aX,[],A.ah("aY<q,K?>"))
+B.QL=new A.aY(B.aX,[],A.ah("aY<q,K?>"))
 B.uT=new A.aY(B.aX,[],A.ah("aY<At,@>"))
-B.QL=new A.aY(B.aX,[],A.ah("aY<fp,d5>"))
+B.QK=new A.aY(B.aX,[],A.ah("aY<fp,d5>"))
 B.uR=new A.aY(B.aX,[],A.ah("aY<fp,oh<d5>>"))
 B.M3=s([42,null,null,8589935146],t.Z)
 B.M4=s([43,null,null,8589935147],t.Z)
@@ -87731,23 +87728,25 @@ B.MA=s([B.es,B.es,B.h8,null],t.L)
 B.N9=s([B.en,null,null,B.eu],t.L)
 B.NW=s([B.eo,null,null,B.ew],t.L)
 B.MB=s([B.cH,B.cH,B.di,null],t.L)
-B.QO=new A.cX(["*",B.Mk,"+",B.Oa,"-",B.MX,".",B.Nv,"/",B.LC,"0",B.Oz,"1",B.Op,"2",B.Ms,"3",B.OJ,"4",B.Oo,"5",B.Mq,"6",B.LO,"7",B.MG,"8",B.Ob,"9",B.Oi,"Alt",B.My,"AltGraph",B.OA,"ArrowDown",B.N4,"ArrowLeft",B.N5,"ArrowRight",B.N6,"ArrowUp",B.OE,"Clear",B.Om,"Control",B.Mz,"Delete",B.NM,"End",B.N7,"Enter",B.Mo,"Home",B.N8,"Insert",B.On,"Meta",B.MA,"PageDown",B.N9,"PageUp",B.NW,"Shift",B.MB],A.ah("cX<q,U<h?>>"))
-B.Ry={default:0,lacquer:1,silk:2,jade:3,gold_dragon:4,najeon:5,celadon:6,royal_silk:7}
-B.uW=new A.aY(B.Ry,[4282133790,4292457562,4293313386,4280961590,4282787850,4293061874,4280696372,4293706848],t.eL)
-B.QP=new A.cX([1,"assets/ui/gem_common.png",2,"assets/ui/gem_rare.png",3,"assets/ui/gem_legend.png"],t.TM)
+B.QN=new A.cX(["*",B.Mk,"+",B.Oa,"-",B.MX,".",B.Nv,"/",B.LC,"0",B.Oz,"1",B.Op,"2",B.Ms,"3",B.OJ,"4",B.Oo,"5",B.Mq,"6",B.LO,"7",B.MG,"8",B.Ob,"9",B.Oi,"Alt",B.My,"AltGraph",B.OA,"ArrowDown",B.N4,"ArrowLeft",B.N5,"ArrowRight",B.N6,"ArrowUp",B.OE,"Clear",B.Om,"Control",B.Mz,"Delete",B.NM,"End",B.N7,"Enter",B.Mo,"Home",B.N8,"Insert",B.On,"Meta",B.MA,"PageDown",B.N9,"PageUp",B.NW,"Shift",B.MB],A.ah("cX<q,U<h?>>"))
+B.Rz={default:0,lacquer:1,silk:2,jade:3,gold_dragon:4,najeon:5,celadon:6,royal_silk:7}
+B.uW=new A.aY(B.Rz,[4282133790,4292457562,4293313386,4280961590,4282787850,4293061874,4280696372,4293706848],t.eL)
+B.QO=new A.cX([1,"assets/ui/gem_common.png",2,"assets/ui/gem_rare.png",3,"assets/ui/gem_legend.png"],t.TM)
 B.Hm=new A.f(1,0.7490196078431373,0.7215686274509804,0.6509803921568628,B.c)
 B.Fa=new A.f(1,0.34901960784313724,0.7019607843137254,1,B.c)
 B.FT=new A.f(1,1,0.8,0.2,B.c)
-B.QQ=new A.cX([1,B.Hm,2,B.Fa,3,B.FT],t.pl)
-B.Ru={"board:default":0,"board:lacquer":1,"board:jade":2,"board:silk":3,"board:celadon":4,"board:najeon":5,"board:royal_silk":6,"board:gold_dragon":7,"pieces:default":8,"pieces:jade":9,"pieces:lacquer":10,"pieces:bronze":11,"pieces:porcelain":12,"pieces:najeon":13,"pieces:jade_seal":14,"pieces:medallion":15,"pieces:gold_dragon":16}
-B.uX=new A.aY(B.Ru,["\ud55c\uc9c0\uc5d0 \uba39\uc73c\ub85c \uadf8\uc740 \uc904, \uccad\ub3d9 \ubaa8\uc11c\ub9ac\uc758 \ub098\ubb34 \ud2c0. \ucc98\uc74c\ubd80\ud130 \uc4f0\ub294 \ud310\uc774\uc5d0\uc694.","\uac80\uc740 \uc63b\uce60 \ubc14\ud0d5\uc5d0 \uae08\uac00\ub8e8\uac00 \ubfcc\ub824\uc838 \uc788\uace0 \uc904\uc740 \uae08\ube5b\uc774\uc5d0\uc694. \ucc28\ubd84\ud558\uace0 \ubb35\uc9c1\ud55c \ud310.","\ub9d1\uc740 \uccad\uc625\uc744 \uae4e\uc740 \ub3cc\ud310\uc5d0 \uc9d9\uc740 \ub179\uc0c9 \uc904. \ubc1d\uace0 \uc2dc\uc6d0\ud55c \ub290\ub08c\uc774\uc5d0\uc694.","\uad6c\ub984 \ubb34\ub2ac\ub97c \uc9e0 \uc9c4\ud64d \ube44\ub2e8\uc5d0 \uae08\ube5b \uc904. \uc655\uc2e4\uc758 \ubd84\uc704\uae30\uac00 \ub098\uc694.","\ube59\ub82c\uc774 \uac04 \uace0\ub824\uccad\uc790 \ubc14\ud0d5. \ud14c\ub450\ub9ac\uc5d0 \ud559\uacfc \ubc84\ub4e4, \uc5f0\uaf43\uc744 \uc0c1\uac10\uc73c\ub85c \uc0c8\uacbc\uc5b4\uc694.","\uac80\uc740 \uc63b\uce60\uc5d0 \uc790\uac1c\ub97c \ubc15\uc740 \ud310. \ud14c\ub450\ub9ac\uc5d0 \uc790\uac1c \ud559\uacfc \uc18c\ub098\ubb34, \ub9e4\ud654\uac00 \ube5b\ub098\uc694.","\uc790\ub2e8 \ub098\ubb34 \ud2c0\uc5d0 \uc9c4\ud64d \ube44\ub2e8\uc744 \uba54\uc6b0\uace0 \ubd09\ud669\uacfc \ubaa8\ub780\uc744 \uae08\uc2e4\ub85c \uc218\ub193\uc558\uc5b4\uc694.","VIP \ub9cc \uc4f0\ub294 \ud310. \ub450\ub4dc\ub9b0 \uae08\ubc15 \ubc14\ud0d5\uc5d0 \ubd89\uc740 \uc63b\uce60 \ud14c\ub450\ub9ac, \uae08\ub8e1 \ub124 \ub9c8\ub9ac\uc640 \ube44\ucde8 \uad6c\uc2ac. \uac00\uc7a5 \ud654\ub824\ud55c \ud310.","\ub098\ubb34 \ud314\uac01 \ub9d0\ud310\uc5d0 \uae00\uc790\ub97c \uc0c8\uacbc\uc5b4\uc694. \ucc98\uc74c\ubd80\ud130 \uc4f0\ub294 \ub9d0\uc774\uc5d0\uc694.","\uccad\ub3d9 \ud14c\ub97c \ub450\ub978 \ubc31\uc625 \ub9d0. \ucd08\ub294 \uc9d9\uc740 \ub179\uc0c9, \ud55c\uc740 \uc9c4\ud64d \uae00\uc790\uc608\uc694.","\uac80\uc740 \uc63b\uce60 \ub9d0\uc5d0 \uae08 \ud14c\ub450\ub9ac. \ucd08\ub294 \ube44\ucde8\uc0c9, \ud55c\uc740 \uc8fc\ud64d \uae00\uc790\uc608\uc694.","\uc624\ub798\ub41c \uccad\ub3d9 \ub3d9\uc804 \ubaa8\uc591. \ucd08\ub294 \uccad\ub85d \ub179\uc774 \uc2a8 \uccad\ub3d9\uc5d0 \uc740 \uae00\uc790, \ud55c\uc740 \ubd89\uc740 \uccad\ub3d9\uc5d0 \uae08 \uae00\uc790.","\ud770 \ubc31\uc790\uc5d0 \uc720\uc57d\uc73c\ub85c \uc4f4 \uae00\uc790. \ucd08\ub294 \ub179\uc0c9, \ud55c\uc740 \ubd89\uc740 \uc9c4\uc0ac \uad6c\ub984 \ud14c\ub97c \ub458\ub800\uc5b4\uc694.","\uac80\uc740 \uc63b\uce60 \ud314\uac01\uc5d0 \uae08\ud14c, \ubb34\uc9c0\uac2f\ube5b \uc790\uac1c\ub85c \uae00\uc790\uc640 \uad6c\ub984\uc744 \ubc15\uc558\uc5b4\uc694.","\ud574\ud0dc \uc190\uc7a1\uc774\uac00 \ub2ec\ub9b0 \uc625 \ub3c4\uc7a5. \ucd08\ub294 \ub179\uc625, \ud55c\uc740 \ubd89\uc740 \uc625\uc774\uc5d0\uc694.","\uadf8 \ubcd1\uacfc\uc758 \uc7a5\uc218 \ucd08\uc0c1\uc744 \uc0c8\uae34 \uba54\ub2ec. \ucd08\ub294 \ub179\uc0c9 \ubc95\ub791, \ud55c\uc740 \uc9c4\ud64d\uacfc \uae08.","VIP \ub9cc \uc4f0\ub294 \ub9d0. \uc6a9\uc744 \ub450\ub978 \uae08 \ud314\uac01 \ub9d0. \uac80\uc740 \ubc95\ub791 \uc18d\uc5d0 \ucd08\ub85d\xb7\ubd89\uc740 \uae00\uc790\uac00 \ube5b\ub098\uc694."],t.l)
+B.QP=new A.cX([1,B.Hm,2,B.Fa,3,B.FT],t.pl)
+B.Rv={"board:default":0,"board:lacquer":1,"board:jade":2,"board:silk":3,"board:celadon":4,"board:najeon":5,"board:royal_silk":6,"board:gold_dragon":7,"pieces:default":8,"pieces:jade":9,"pieces:lacquer":10,"pieces:bronze":11,"pieces:porcelain":12,"pieces:najeon":13,"pieces:jade_seal":14,"pieces:medallion":15,"pieces:gold_dragon":16}
+B.uX=new A.aY(B.Rv,["\ud55c\uc9c0\uc5d0 \uba39\uc73c\ub85c \uadf8\uc740 \uc904, \uccad\ub3d9 \ubaa8\uc11c\ub9ac\uc758 \ub098\ubb34 \ud2c0. \ucc98\uc74c\ubd80\ud130 \uc4f0\ub294 \ud310\uc774\uc5d0\uc694.","\uac80\uc740 \uc63b\uce60 \ubc14\ud0d5\uc5d0 \uae08\uac00\ub8e8\uac00 \ubfcc\ub824\uc838 \uc788\uace0 \uc904\uc740 \uae08\ube5b\uc774\uc5d0\uc694. \ucc28\ubd84\ud558\uace0 \ubb35\uc9c1\ud55c \ud310.","\ub9d1\uc740 \uccad\uc625\uc744 \uae4e\uc740 \ub3cc\ud310\uc5d0 \uc9d9\uc740 \ub179\uc0c9 \uc904. \ubc1d\uace0 \uc2dc\uc6d0\ud55c \ub290\ub08c\uc774\uc5d0\uc694.","\uad6c\ub984 \ubb34\ub2ac\ub97c \uc9e0 \uc9c4\ud64d \ube44\ub2e8\uc5d0 \uae08\ube5b \uc904. \uc655\uc2e4\uc758 \ubd84\uc704\uae30\uac00 \ub098\uc694.","\ube59\ub82c\uc774 \uac04 \uace0\ub824\uccad\uc790 \ubc14\ud0d5. \ud14c\ub450\ub9ac\uc5d0 \ud559\uacfc \ubc84\ub4e4, \uc5f0\uaf43\uc744 \uc0c1\uac10\uc73c\ub85c \uc0c8\uacbc\uc5b4\uc694.","\uac80\uc740 \uc63b\uce60\uc5d0 \uc790\uac1c\ub97c \ubc15\uc740 \ud310. \ud14c\ub450\ub9ac\uc5d0 \uc790\uac1c \ud559\uacfc \uc18c\ub098\ubb34, \ub9e4\ud654\uac00 \ube5b\ub098\uc694.","\uc790\ub2e8 \ub098\ubb34 \ud2c0\uc5d0 \uc9c4\ud64d \ube44\ub2e8\uc744 \uba54\uc6b0\uace0 \ubd09\ud669\uacfc \ubaa8\ub780\uc744 \uae08\uc2e4\ub85c \uc218\ub193\uc558\uc5b4\uc694.","VIP \ub9cc \uc4f0\ub294 \ud310. \ub450\ub4dc\ub9b0 \uae08\ubc15 \ubc14\ud0d5\uc5d0 \ubd89\uc740 \uc63b\uce60 \ud14c\ub450\ub9ac, \uae08\ub8e1 \ub124 \ub9c8\ub9ac\uc640 \ube44\ucde8 \uad6c\uc2ac. \uac00\uc7a5 \ud654\ub824\ud55c \ud310.","\ub098\ubb34 \ud314\uac01 \ub9d0\ud310\uc5d0 \uae00\uc790\ub97c \uc0c8\uacbc\uc5b4\uc694. \ucc98\uc74c\ubd80\ud130 \uc4f0\ub294 \ub9d0\uc774\uc5d0\uc694.","\uccad\ub3d9 \ud14c\ub97c \ub450\ub978 \ubc31\uc625 \ub9d0. \ucd08\ub294 \uc9d9\uc740 \ub179\uc0c9, \ud55c\uc740 \uc9c4\ud64d \uae00\uc790\uc608\uc694.","\uac80\uc740 \uc63b\uce60 \ub9d0\uc5d0 \uae08 \ud14c\ub450\ub9ac. \ucd08\ub294 \ube44\ucde8\uc0c9, \ud55c\uc740 \uc8fc\ud64d \uae00\uc790\uc608\uc694.","\uc624\ub798\ub41c \uccad\ub3d9 \ub3d9\uc804 \ubaa8\uc591. \ucd08\ub294 \uccad\ub85d \ub179\uc774 \uc2a8 \uccad\ub3d9\uc5d0 \uc740 \uae00\uc790, \ud55c\uc740 \ubd89\uc740 \uccad\ub3d9\uc5d0 \uae08 \uae00\uc790.","\ud770 \ubc31\uc790\uc5d0 \uc720\uc57d\uc73c\ub85c \uc4f4 \uae00\uc790. \ucd08\ub294 \ub179\uc0c9, \ud55c\uc740 \ubd89\uc740 \uc9c4\uc0ac \uad6c\ub984 \ud14c\ub97c \ub458\ub800\uc5b4\uc694.","\uac80\uc740 \uc63b\uce60 \ud314\uac01\uc5d0 \uae08\ud14c, \ubb34\uc9c0\uac2f\ube5b \uc790\uac1c\ub85c \uae00\uc790\uc640 \uad6c\ub984\uc744 \ubc15\uc558\uc5b4\uc694.","\ud574\ud0dc \uc190\uc7a1\uc774\uac00 \ub2ec\ub9b0 \uc625 \ub3c4\uc7a5. \ucd08\ub294 \ub179\uc625, \ud55c\uc740 \ubd89\uc740 \uc625\uc774\uc5d0\uc694.","\uadf8 \ubcd1\uacfc\uc758 \uc7a5\uc218 \ucd08\uc0c1\uc744 \uc0c8\uae34 \uba54\ub2ec. \ucd08\ub294 \ub179\uc0c9 \ubc95\ub791, \ud55c\uc740 \uc9c4\ud64d\uacfc \uae08.","VIP \ub9cc \uc4f0\ub294 \ub9d0. \uc6a9\uc744 \ub450\ub978 \uae08 \ud314\uac01 \ub9d0. \uac80\uc740 \ubc95\ub791 \uc18d\uc5d0 \ucd08\ub85d\xb7\ubd89\uc740 \uae00\uc790\uac00 \ube5b\ub098\uc694."],t.l)
 B.RO={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,pierce:5,spare_shield:6,loot_shield:7,promote:8,pursue:9,bind:10,presence:11,supply:12,guard:13,chariot:14,cannon:15,horse:16,elephant:17,soldier:18}
-B.QR=new A.aY(B.RO,["\ubc1f\uc73c\uba74 \uc801\ub3c4 \uc544\uad70\ub3c4 \uc4f0\ub7ec\uc9c4\ub2e4","\ub0b4 \ub9d0 \ud558\ub098\uc5d0 \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc804\ud22c\uc758 \uccab \ud53c\ud574\ub97c \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc804\ud22c\uc758 \uccab \uc218\ub97c \uac00\uc838\uc628\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub9d0\ub85c \uc9c4\ud615\uc744 \ub2e4\uc2dc \uc9e0\ub2e4","\ubc29\ud328\ub97c \ub6ab\uace0 \ud55c \ubc88\uc5d0 \uc7a1\ub294\ub2e4","\uae68\uc9c4 \ubc29\ud328\ub97c \ud55c \ubc88 \ub354 \ucc44\uc6b4\ub2e4","\uc7a1\ub294 \ub370 \uc131\uacf5\ud558\uba74 \ubc29\ud328\ub97c \uc5bb\ub294\ub2e4","\uc878\uc744 \ub2e4\ub978 \ubcd1\uacfc\ub85c \ubc14\uafbc\ub2e4","\uc7a1\uc740 \ub4a4 \ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\uc758 \uccab \ud589\ub3d9\uc744 \ubb36\ub294\ub2e4","\uc7a5\uad70 \uac74 \uc801\uc758 \ubc29\ud328\ub97c \uac77\uc5b4\ub0b8\ub2e4","\ub2e4\uc74c \uc804\ud22c\uc758 \ud3ec\ud68d \uc5fd\uc804\uc744 \ub298\ub9b0\ub2e4","\uc655 \uacc1\uc744 \uc9c0\ud0a4\ub294 \ud55c \uce78","\uace7\uac8c \ubc00\uace0 \ub098\uac00\ub294 \ud798","\ub9d0\uc744 \ub118\uc5b4 \uce58\ub294 \ud55c \ubc29","\ube60\ub974\uace0 \ub0a0\uc318 \ub3cc\uaca9","\uba40\ub9ac \ube44\uc2a4\ub4ec\ud788 \uce58\uace0 \ub4e0\ub2e4","\uc55e\uacfc \uc606\uc73c\ub85c \ud55c \uce78\uc529"],t.l)
-B.RD={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,spare_shield:5,pierce:6,loot_shield:7,pursue:8,bind:9,supply:10,promote:11,presence:12}
-B.uY=new A.aY(B.RD,[0,0,0,0,0,0,1,1,1,1,1,2,2],t.eL)
-B.Rz={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
-B.uZ=new A.aY(B.Rz,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.l)
-B.Rr={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
+B.QQ=new A.aY(B.RO,["\ubc1f\uc73c\uba74 \uc801\ub3c4 \uc544\uad70\ub3c4 \uc4f0\ub7ec\uc9c4\ub2e4","\ub0b4 \ub9d0 \ud558\ub098\uc5d0 \ubc29\ud328 \ud55c \uacb9","\ub2e4\uc74c \uc804\ud22c\uc758 \uccab \ud53c\ud574\ub97c \ub9c9\ub294\ub2e4","\ub2e4\uc74c \uc804\ud22c\uc758 \uccab \uc218\ub97c \uac00\uc838\uc628\ub2e4","\uc0b4\uc544\ub0a8\uc740 \ub9d0\ub85c \uc9c4\ud615\uc744 \ub2e4\uc2dc \uc9e0\ub2e4","\ubc29\ud328\ub97c \ub6ab\uace0 \ud55c \ubc88\uc5d0 \uc7a1\ub294\ub2e4","\uae68\uc9c4 \ubc29\ud328\ub97c \ud55c \ubc88 \ub354 \ucc44\uc6b4\ub2e4","\uc7a1\ub294 \ub370 \uc131\uacf5\ud558\uba74 \ubc29\ud328\ub97c \uc5bb\ub294\ub2e4","\uc878\uc744 \ub2e4\ub978 \ubcd1\uacfc\ub85c \ubc14\uafbc\ub2e4","\uc7a1\uc740 \ub4a4 \ud55c \ubc88 \ub354 \uc6c0\uc9c1\uc778\ub2e4","\uc801 \ud558\ub098\uc758 \uccab \ud589\ub3d9\uc744 \ubb36\ub294\ub2e4","\uc7a5\uad70 \uac74 \uc801\uc758 \ubc29\ud328\ub97c \uac77\uc5b4\ub0b8\ub2e4","\ub2e4\uc74c \uc804\ud22c\uc758 \ud3ec\ud68d \uc5fd\uc804\uc744 \ub298\ub9b0\ub2e4","\uc655 \uacc1\uc744 \uc9c0\ud0a4\ub294 \ud55c \uce78","\uace7\uac8c \ubc00\uace0 \ub098\uac00\ub294 \ud798","\ub9d0\uc744 \ub118\uc5b4 \uce58\ub294 \ud55c \ubc29","\ube60\ub974\uace0 \ub0a0\uc318 \ub3cc\uaca9","\uba40\ub9ac \ube44\uc2a4\ub4ec\ud788 \uce58\uace0 \ub4e0\ub2e4","\uc55e\uacfc \uc606\uc73c\ub85c \ud55c \uce78\uc529"],t.l)
+B.Rr={soldier:0,guard:1,elephant:2,horse:3,cannon:4,chariot:5,king:6}
+B.QR=new A.aY(B.Rr,[11,15,22,26,30,52,110],t.eL)
+B.RE={trap:0,shield_gift:1,guard_array:2,drum:3,regroup:4,spare_shield:5,pierce:6,loot_shield:7,pursue:8,bind:9,supply:10,promote:11,presence:12}
+B.uY=new A.aY(B.RE,[0,0,0,0,0,0,1,1,1,1,1,2,2],t.eL)
+B.RA={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
+B.uZ=new A.aY(B.RA,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.l)
+B.Rs={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.yf=new A.o(458907)
 B.xW=new A.o(458873)
 B.dr=new A.o(458978)
@@ -87978,15 +87977,15 @@ B.vE=new A.o(22)
 B.xX=new A.o(458874)
 B.ys=new A.o(65667)
 B.yV=new A.o(786994)
-B.v_=new A.aY(B.Rr,[B.yf,B.xW,B.dr,B.dt,B.xl,B.xk,B.xj,B.xm,B.y3,B.y1,B.y2,B.wW,B.wT,B.wM,B.wR,B.wS,B.yv,B.yu,B.yQ,B.yU,B.yR,B.yP,B.yT,B.yO,B.yS,B.cO,B.wX,B.xE,B.dp,B.eB,B.y8,B.xZ,B.xY,B.xg,B.wK,B.wB,B.wC,B.wD,B.wE,B.wF,B.wG,B.wH,B.wI,B.wJ,B.yt,B.yE,B.xh,B.wL,B.wQ,B.kJ,B.kJ,B.x_,B.x8,B.x9,B.xa,B.xH,B.xI,B.xJ,B.xK,B.xL,B.xM,B.xN,B.x0,B.xO,B.xP,B.xQ,B.xR,B.xS,B.x1,B.x2,B.x3,B.x4,B.x5,B.x6,B.x7,B.y0,B.eA,B.vB,B.vH,B.vQ,B.vR,B.vS,B.vT,B.vU,B.vV,B.vW,B.vI,B.vJ,B.vK,B.vL,B.vM,B.vN,B.vO,B.vP,B.vX,B.vY,B.vZ,B.w_,B.w0,B.w1,B.w2,B.w3,B.w4,B.w5,B.w6,B.w7,B.w8,B.w9,B.wa,B.xU,B.xe,B.vz,B.xd,B.xD,B.y5,B.y7,B.y6,B.wb,B.wc,B.wd,B.we,B.wf,B.wg,B.wh,B.wi,B.wj,B.wk,B.wl,B.wm,B.wn,B.wo,B.wp,B.wq,B.wr,B.ws,B.wt,B.wu,B.wv,B.ww,B.wx,B.wy,B.wz,B.wA,B.yZ,B.ya,B.yb,B.yc,B.yd,B.ye,B.yJ,B.yI,B.yN,B.yK,B.yH,B.yM,B.yX,B.yW,B.yY,B.yz,B.yx,B.yw,B.yF,B.yy,B.yA,B.yG,B.yD,B.yB,B.yC,B.ds,B.eD,B.vG,B.wP,B.y9,B.hl,B.xB,B.xs,B.xt,B.xu,B.xv,B.xw,B.xx,B.xy,B.xz,B.xA,B.xq,B.yj,B.yp,B.yq,B.y4,B.xC,B.xn,B.xr,B.xG,B.yn,B.ym,B.yl,B.yk,B.yo,B.xo,B.yh,B.yi,B.xp,B.xT,B.xi,B.xf,B.y_,B.xc,B.wY,B.xF,B.xb,B.vF,B.yg,B.wV,B.vD,B.hk,B.xV,B.yL,B.wU,B.dq,B.eC,B.z_,B.wZ,B.yr,B.wO,B.vA,B.vC,B.wN,B.vE,B.xX,B.ys,B.yV],A.ah("aY<q,o>"))
-B.RA={pierce:0,spare_shield:1,loot_shield:2,promote:3,pursue:4,bind:5}
-B.hc=new A.aY(B.RA,["pierce","spare","loot","promote","pursue","bind"],t.l)
-B.RF={chariot:0}
-B.QT=new A.aY(B.RF,[3],t.eL)
-B.RG={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
-B.c_=new A.aY(B.RG,["MM","DE","FR","TL","YE","CD"],t.l)
-B.Rv={pierce:0,spare:1,loot:2,promote:3,pursue:4,bind:5}
-B.v0=new A.aY(B.Rv,["\ud30c\uac11 \ud654\uc0b4\uc744 \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694","\uc608\ube44 \ubc29\ud328\ub97c \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694 (\ubc29\ud328 \uc788\ub294 \ub9d0)","\uc804\ub9ac\ud488 \ubc29\ud328\ub97c \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694 (\ubc29\ud328 \uc5c6\ub294 \ub9d0)","\uc2b9\uc9c4\ud560 \uc878\uc744 \uace0\ub974\uc138\uc694","\ucd94\uaca9 \uba85\ub839\uc744 \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694","\ubb36\uc744 \uc0c1\ub300 \ub9d0\uc744 \uace0\ub974\uc138\uc694"],t.l)
+B.v_=new A.aY(B.Rs,[B.yf,B.xW,B.dr,B.dt,B.xl,B.xk,B.xj,B.xm,B.y3,B.y1,B.y2,B.wW,B.wT,B.wM,B.wR,B.wS,B.yv,B.yu,B.yQ,B.yU,B.yR,B.yP,B.yT,B.yO,B.yS,B.cO,B.wX,B.xE,B.dp,B.eB,B.y8,B.xZ,B.xY,B.xg,B.wK,B.wB,B.wC,B.wD,B.wE,B.wF,B.wG,B.wH,B.wI,B.wJ,B.yt,B.yE,B.xh,B.wL,B.wQ,B.kJ,B.kJ,B.x_,B.x8,B.x9,B.xa,B.xH,B.xI,B.xJ,B.xK,B.xL,B.xM,B.xN,B.x0,B.xO,B.xP,B.xQ,B.xR,B.xS,B.x1,B.x2,B.x3,B.x4,B.x5,B.x6,B.x7,B.y0,B.eA,B.vB,B.vH,B.vQ,B.vR,B.vS,B.vT,B.vU,B.vV,B.vW,B.vI,B.vJ,B.vK,B.vL,B.vM,B.vN,B.vO,B.vP,B.vX,B.vY,B.vZ,B.w_,B.w0,B.w1,B.w2,B.w3,B.w4,B.w5,B.w6,B.w7,B.w8,B.w9,B.wa,B.xU,B.xe,B.vz,B.xd,B.xD,B.y5,B.y7,B.y6,B.wb,B.wc,B.wd,B.we,B.wf,B.wg,B.wh,B.wi,B.wj,B.wk,B.wl,B.wm,B.wn,B.wo,B.wp,B.wq,B.wr,B.ws,B.wt,B.wu,B.wv,B.ww,B.wx,B.wy,B.wz,B.wA,B.yZ,B.ya,B.yb,B.yc,B.yd,B.ye,B.yJ,B.yI,B.yN,B.yK,B.yH,B.yM,B.yX,B.yW,B.yY,B.yz,B.yx,B.yw,B.yF,B.yy,B.yA,B.yG,B.yD,B.yB,B.yC,B.ds,B.eD,B.vG,B.wP,B.y9,B.hl,B.xB,B.xs,B.xt,B.xu,B.xv,B.xw,B.xx,B.xy,B.xz,B.xA,B.xq,B.yj,B.yp,B.yq,B.y4,B.xC,B.xn,B.xr,B.xG,B.yn,B.ym,B.yl,B.yk,B.yo,B.xo,B.yh,B.yi,B.xp,B.xT,B.xi,B.xf,B.y_,B.xc,B.wY,B.xF,B.xb,B.vF,B.yg,B.wV,B.vD,B.hk,B.xV,B.yL,B.wU,B.dq,B.eC,B.z_,B.wZ,B.yr,B.wO,B.vA,B.vC,B.wN,B.vE,B.xX,B.ys,B.yV],A.ah("aY<q,o>"))
+B.RB={pierce:0,spare_shield:1,loot_shield:2,promote:3,pursue:4,bind:5}
+B.hc=new A.aY(B.RB,["pierce","spare","loot","promote","pursue","bind"],t.l)
+B.RG={chariot:0}
+B.QT=new A.aY(B.RG,[3],t.eL)
+B.RH={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
+B.c_=new A.aY(B.RH,["MM","DE","FR","TL","YE","CD"],t.l)
+B.Rw={pierce:0,spare:1,loot:2,promote:3,pursue:4,bind:5}
+B.v0=new A.aY(B.Rw,["\ud30c\uac11 \ud654\uc0b4\uc744 \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694","\uc608\ube44 \ubc29\ud328\ub97c \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694 (\ubc29\ud328 \uc788\ub294 \ub9d0)","\uc804\ub9ac\ud488 \ubc29\ud328\ub97c \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694 (\ubc29\ud328 \uc5c6\ub294 \ub9d0)","\uc2b9\uc9c4\ud560 \uc878\uc744 \uace0\ub974\uc138\uc694","\ucd94\uaca9 \uba85\ub839\uc744 \uc904 \ub9d0\uc744 \uace0\ub974\uc138\uc694","\ubb36\uc744 \uc0c1\ub300 \ub9d0\uc744 \uace0\ub974\uc138\uc694"],t.l)
 B.T0=new A.o(458752)
 B.T1=new A.o(458753)
 B.T2=new A.o(458754)
@@ -88027,8 +88026,8 @@ B.TA=new A.o(786989)
 B.TB=new A.o(786990)
 B.TC=new A.o(787065)
 B.QU=new A.cX([16,B.vz,17,B.vA,18,B.eA,19,B.vB,20,B.vC,21,B.vD,22,B.vE,23,B.vF,24,B.vG,65666,B.yr,65667,B.ys,65717,B.yt,392961,B.vH,392962,B.vI,392963,B.vJ,392964,B.vK,392965,B.vL,392966,B.vM,392967,B.vN,392968,B.vO,392969,B.vP,392970,B.vQ,392971,B.vR,392972,B.vS,392973,B.vT,392974,B.vU,392975,B.vV,392976,B.vW,392977,B.vX,392978,B.vY,392979,B.vZ,392980,B.w_,392981,B.w0,392982,B.w1,392983,B.w2,392984,B.w3,392985,B.w4,392986,B.w5,392987,B.w6,392988,B.w7,392989,B.w8,392990,B.w9,392991,B.wa,458752,B.T0,458753,B.T1,458754,B.T2,458755,B.T3,458756,B.wb,458757,B.wc,458758,B.wd,458759,B.we,458760,B.wf,458761,B.wg,458762,B.wh,458763,B.wi,458764,B.wj,458765,B.wk,458766,B.wl,458767,B.wm,458768,B.wn,458769,B.wo,458770,B.wp,458771,B.wq,458772,B.wr,458773,B.ws,458774,B.wt,458775,B.wu,458776,B.wv,458777,B.ww,458778,B.wx,458779,B.wy,458780,B.wz,458781,B.wA,458782,B.wB,458783,B.wC,458784,B.wD,458785,B.wE,458786,B.wF,458787,B.wG,458788,B.wH,458789,B.wI,458790,B.wJ,458791,B.wK,458792,B.wL,458793,B.kJ,458794,B.wM,458795,B.wN,458796,B.wO,458797,B.wP,458798,B.wQ,458799,B.wR,458800,B.wS,458801,B.wT,458803,B.wU,458804,B.wV,458805,B.wW,458806,B.wX,458807,B.wY,458808,B.wZ,458809,B.cO,458810,B.x_,458811,B.x0,458812,B.x1,458813,B.x2,458814,B.x3,458815,B.x4,458816,B.x5,458817,B.x6,458818,B.x7,458819,B.x8,458820,B.x9,458821,B.xa,458822,B.xb,458823,B.hk,458824,B.xc,458825,B.xd,458826,B.xe,458827,B.xf,458828,B.xg,458829,B.xh,458830,B.xi,458831,B.xj,458832,B.xk,458833,B.xl,458834,B.xm,458835,B.hl,458836,B.xn,458837,B.xo,458838,B.xp,458839,B.xq,458840,B.xr,458841,B.xs,458842,B.xt,458843,B.xu,458844,B.xv,458845,B.xw,458846,B.xx,458847,B.xy,458848,B.xz,458849,B.xA,458850,B.xB,458851,B.xC,458852,B.xD,458853,B.xE,458854,B.xF,458855,B.xG,458856,B.xH,458857,B.xI,458858,B.xJ,458859,B.xK,458860,B.xL,458861,B.xM,458862,B.xN,458863,B.xO,458864,B.xP,458865,B.xQ,458866,B.xR,458867,B.xS,458868,B.xT,458869,B.xU,458871,B.xV,458873,B.xW,458874,B.xX,458875,B.xY,458876,B.xZ,458877,B.y_,458878,B.y0,458879,B.y1,458880,B.y2,458881,B.y3,458885,B.y4,458887,B.y5,458888,B.y6,458889,B.y7,458890,B.y8,458891,B.y9,458896,B.ya,458897,B.yb,458898,B.yc,458899,B.yd,458900,B.ye,458907,B.yf,458915,B.yg,458934,B.yh,458935,B.yi,458939,B.yj,458960,B.yk,458961,B.yl,458962,B.ym,458963,B.yn,458964,B.yo,458967,B.T4,458968,B.yp,458969,B.yq,458976,B.dp,458977,B.dq,458978,B.dr,458979,B.ds,458980,B.eB,458981,B.eC,458982,B.dt,458983,B.eD,786528,B.T5,786529,B.T6,786543,B.yu,786544,B.yv,786546,B.T7,786547,B.T8,786548,B.T9,786549,B.Ta,786553,B.Tb,786554,B.Tc,786563,B.Td,786572,B.Te,786573,B.Tf,786580,B.Tg,786588,B.Th,786589,B.Ti,786608,B.yw,786609,B.yx,786610,B.yy,786611,B.yz,786612,B.yA,786613,B.yB,786614,B.yC,786615,B.yD,786616,B.yE,786637,B.yF,786639,B.Tj,786661,B.Tk,786819,B.yG,786820,B.Tl,786822,B.Tm,786826,B.yH,786829,B.Tn,786830,B.To,786834,B.yI,786836,B.yJ,786838,B.Tp,786844,B.Tq,786846,B.Tr,786847,B.yK,786850,B.yL,786855,B.Ts,786859,B.Tt,786862,B.Tu,786865,B.yM,786871,B.Tv,786891,B.yN,786945,B.Tw,786947,B.Tx,786951,B.Ty,786952,B.Tz,786977,B.yO,786979,B.yP,786980,B.yQ,786981,B.yR,786982,B.yS,786983,B.yT,786986,B.yU,786989,B.TA,786990,B.TB,786994,B.yV,787065,B.TC,787081,B.yW,787083,B.yX,787084,B.yY,787101,B.yZ,787103,B.z_],A.ah("cX<k,o>"))
-B.Rx={s:0,h:1,e:2,c:3,r:4}
-B.kt=new A.aY(B.Rx,["soldier","horse","elephant","cannon","chariot"],t.l)
+B.Ry={s:0,h:1,e:2,c:3,r:4}
+B.kt=new A.aY(B.Ry,["soldier","horse","elephant","cannon","chariot"],t.l)
 B.QV=new A.dg(B.T,12)
 B.QW=new A.dg(B.T,14)
 B.QX=new A.dg(B.T,2)
@@ -88442,11 +88441,11 @@ B.zK=new A.eJ("RenderViewport.twoPane")
 B.zL=new A.eJ("RenderViewport.excludeFromScrolling")
 B.hF=new A.LV(0,"none")
 B.zM=new A.LV(2,"invalid")
-B.Rw={mailto:0,tel:1,sms:2}
-B.WW=new A.dt(B.Rw,3,t.fF)
+B.Rx={mailto:0,tel:1,sms:2}
+B.WW=new A.dt(B.Rx,3,t.fF)
 B.l1=new A.e5([B.bG,B.hi,B.kG],A.ah("e5<kG>"))
-B.RI={celadon:0,najeon:1,royal_silk:2,gold_dragon:3}
-B.dw=new A.dt(B.RI,4,t.fF)
+B.RJ={celadon:0,najeon:1,royal_silk:2,gold_dragon:3}
+B.dw=new A.dt(B.RJ,4,t.fF)
 B.WX=new A.e5([10,11,12,13,133,8232,8233],t.Ih)
 B.Ro={serif:0,"sans-serif":1,monospace:2,cursive:3,fantasy:4,"system-ui":5,math:6,emoji:7,fangsong:8}
 B.WY=new A.dt(B.Ro,9,t.fF)
@@ -88454,13 +88453,13 @@ B.Rn={"canvaskit.js":0}
 B.WZ=new A.dt(B.Rn,1,t.fF)
 B.X_=new A.e5([B.cQ,B.cR,B.du,B.hn,B.bI,B.cS],t.Lu)
 B.zN=new A.e5([B.hn,B.du,B.cQ,B.cS,B.bI],t.Lu)
-B.RK={javascript:0}
-B.X0=new A.dt(B.RK,1,t.fF)
+B.RL={javascript:0}
+B.X0=new A.dt(B.RL,1,t.fF)
 B.RN={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
 B.X1=new A.dt(B.RN,7,t.fF)
 B.X2=new A.e5([B.aS,B.aH,B.bK],A.ah("e5<eZ>"))
-B.RJ={soldier:0,guard:1,horse:2,elephant:3,chariot:4,cannon:5}
-B.X3=new A.dt(B.RJ,6,t.fF)
+B.RK={soldier:0,guard:1,horse:2,elephant:3,chariot:4,cannon:5}
+B.X3=new A.dt(B.RK,6,t.fF)
 B.X6=new A.dt(B.aX,0,A.ah("dt<ZY<cD>>"))
 B.X5=new A.dt(B.aX,0,A.ah("dt<eJ>"))
 B.X7=new A.dt(B.aX,0,t.fF)
@@ -89485,7 +89484,7 @@ return new A.RO(A.at1(20,q,p),n,o)})
 s($,"aVn","aEH",()=>A.aO([B.of,A.aBT("grapheme"),B.og,A.aBT("word")],A.ah("xM"),t.m))
 s($,"aWk","aFp",()=>{var q="v8BreakIterator"
 if(A.L(A.L(A.lr(),"Intl"),q)==null)A.a1(A.cq("v8BreakIterator is not supported."))
-return A.aNQ(A.EY(A.EY(A.lr(),"Intl"),q),A.aJ1([]),A.ay4(B.QK))})
+return A.aNQ(A.EY(A.EY(A.lr(),"Intl"),q),A.aJ1([]),A.ay4(B.QJ))})
 s($,"aWi","aFn",()=>A.at7(4))
 s($,"aWg","avH",()=>A.at7(16))
 s($,"aWh","aFm",()=>A.aJd($.avH()))
