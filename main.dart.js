@@ -97674,7 +97674,7 @@ e.push(new A.bW(60+m.a*205,470,g,g,g,g,A.bS(g,A.ay(g,A.c_(A.b([i,B.dK,A.a1(h==nu
 amL(){var s=null
 return this.Ae("\uad70\uc601 \ubc30\uce58\ub97c \uc800\uc7a5\ud588\uc2b5\ub2c8\ub2e4.",A.b([A.S(s,A.bP("\ud655\uc778",B.a9,30,90,s,new A.aAj(this),260),s,s,230,s,520,s)],t.p))},
 al0(){var s=this,r=null
-return s.Ae("\uc77c\uc2dc \uba48\ucda4",A.b([A.S(r,new A.JS(new A.aAe(s),!0,r),r,r,590,r,236,r),A.S(r,A.bP("\uc124\uc815",B.aY,30,96,r,new A.aAc(s),360),r,r,180,r,380,r),A.S(r,A.bP("\ud3ec\uae30",B.bc,30,96,r,new A.aAd(s),360),r,r,180,r,500,r)],t.p))},
+return s.Ae("\uc77c\uc2dc \uba48\ucda4",A.b([A.S(r,new A.JS(new A.aAe(s),!0,r),r,r,590,r,236,r),A.S(r,A.bP("\uc124\uc815",B.aY,34,96,r,new A.aAc(s),360),r,r,180,r,380,r),A.S(r,A.bP("\ud3ec\uae30",B.bc,34,96,r,new A.aAd(s),360),r,r,180,r,500,r)],t.p))},
 aeB(){var s=this,r=null,q=s.a.d?"\ud3ec\uae30\ud558\uace0 \uc774 \ud310\uc744\n\ub05d\ub0bc\uae4c\uc694?":"\ud3ec\uae30\ud558\uace0 \uc2a4\ud14c\uc774\uc9c0\ub97c\n\ub05d\ub0bc\uae4c\uc694?"
 return s.Ae(q,A.b([A.S(r,A.bP("\ud3ec\uae30\ud558\uae30",B.aY,30,90,r,s.gaxa(),260),r,r,90,r,520,r),A.S(r,A.bP("\uacc4\uc18d\ud558\uae30",B.a9,30,90,r,new A.azP(s),260),r,r,370,r,520,r)],t.p))},
 Vh(a,b,c,a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="assets/ui/divider.png",e=t.s,d=[A.b(["assets/ui/stat_wave.png",c,a0],e),A.b(["assets/ui/stat_lost.png","\uc783\uc740 \ub9d0",""+h.bb],e),A.b(["assets/ui/stat_turns.png","\ub454 \uc218",""+h.lw],e)]
