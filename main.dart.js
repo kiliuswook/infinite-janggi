@@ -29252,7 +29252,7 @@ if(n==null)n="wood"
 m=t.s
 n=A.b(["button","place_"+j+"_"+p,"pick_"+o,"capture_"+n,"capture","deny","popup","march_drum","march","wave_start","wave_win","lost","king_fall","check_sig_d_p","check_sig_d_e","check_loop_c"],m)
 n.push("check_start_brass")
-n.push("map_select_f")
+n.push("map_select_h")
 n.push("shield_on")
 n.push("shield_break")
 n.push("coin")
@@ -100725,7 +100725,7 @@ A.aFY.prototype={
 $2(a,b){if(!a)A.f6(this.a,B.cs)},
 $S:96}
 A.aFU.prototype={
-$1(a){A.bh("map_select_f",40,1)
+$1(a){A.bh("map_select_h",40,1)
 this.a.aoe(a.b.R(0,B.Xt))},
 $S:25}
 A.aFV.prototype={
