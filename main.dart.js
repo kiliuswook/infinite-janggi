@@ -29254,6 +29254,7 @@ n=B.c8.h(0,$.dN)
 if(n==null)n="wood"
 m=t.s
 n=A.b(["button","place_"+j+"_"+p,"pick_"+o,"capture_"+n,"capture","deny","popup","march_drum","march","wave_start","wave_win","lost","king_fall","check_sig_d_p","check_sig_d_e","capture_alt_drum","check_loop_c"],m)
+n.push("card_pick_a")
 n.push("card_tick_a")
 n.push("check_start_brass")
 n.push("map_select_h")
@@ -96841,7 +96842,7 @@ return A.ay(r,A.bQ(A.b([n,B.no,A.mF(A.c0(A.b([A.a1(o,r,r,r,B.E_,r,r,r),A.a1("\ub
 azo(a){var s,r,q,p,o,n=this,m="busy"
 if(n.dx!=="pick")return
 B.b.t(B.iC,a)
-A.bg("card_pick",40,1)
+A.bg("card_pick_a",40,1)
 if(a==="revive"){n.mw=!0
 n.bx="lost"
 n.b1()
@@ -96914,7 +96915,7 @@ o=p.d
 p.d=0
 s=n.by
 r=B.my.h(0,a)
-A.ep(A.cN(0,0,0),new A.aBv(n,s,p,o,q,r===3),t.P)
+A.ep(A.cN(0,250,0),new A.aBv(n,s,p,o,q,r===3),t.P)
 n.C8("new",q)}else{n.b4=!1
 n.hJ()}},
 tm(a){return this.axA(a)},
