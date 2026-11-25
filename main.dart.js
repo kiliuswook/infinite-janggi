@@ -99020,7 +99020,7 @@ r=r.a
 o=a&&!J.d($.ew.h(0,""+r),!0)
 n=q*(10+4*r)
 m=q*(5+2*r)
-if(a){if(o)n+=800+900*r
+if(a){if(o)n+=1700+800*r
 m+=40+20*r}p=new A.us(n,m,0)}r=Math.max(0,p.a-i.x1)
 o=Date.now()<$.cd?2:1
 l=Date.now()<$.cd?2:1
@@ -102893,7 +102893,7 @@ else k=g<=a1?B.H:B.M5
 f=new A.b3(B.b2,1.2,B.J,-1)
 l.push(A.aA(d,d,B.j,d,d,new A.ae(k,d,new A.cK(f,f,f,f),d,d,d,B.ah),d,15,d,B.Qu,d,d,d,15))}l.push(A.T(a?" \ud3c9\uc815":" "+a1+"/"+a3,d,d,d,B.af_,d,d,d))
 a3=e.Il(B.E3,"\ucd5c\uace0 \uae30\ub85d",A.bF(l,B.o,B.t,B.B))
-return A.aO(B.y,A.b([p,q,r,n,m,a3,e.Il(B.E4,"\ud3c9\uc815 \ubcf4\uc0c1",J.d($.ew.h(0,b),!0)?B.afZ:A.bF(A.b([B.Kn,A.T(" "+(800+900*a5),d,d,d,B.FN,d,d,d)],o),B.o,B.t,B.B))],o),B.n,B.E)},
+return A.aO(B.y,A.b([p,q,r,n,m,a3,e.Il(B.E4,"\ud3c9\uc815 \ubcf4\uc0c1",J.d($.ew.h(0,b),!0)?B.afZ:A.bF(A.b([B.Kn,A.T(" "+(1700+800*a5),d,d,d,B.FN,d,d,d)],o),B.o,B.t,B.B))],o),B.n,B.E)},
 Il(a,b,c){var s=null
 return A.b_(new A.dt("chip_hanji",new A.br(B.ro,A.bF(A.b([A.bW(A.T(b,s,s,s,A.be(s,s,B.au,s,s,s,s,s,s,s,s,(a.d-a.b)*0.5,s,s,s,s,1.1,!0,s,s,s,s,s,s,s,s),s,s,B.u),s,106),A.lE(A.cr(B.aG,c,B.aa,s),1)],t.p),B.o,B.t,B.B),s),s,s),a)},
 ajZ(){var s,r=this,q=null,p=r.r,o=p===1||J.d($.ew.h(0,""+(p-1)),!0)
